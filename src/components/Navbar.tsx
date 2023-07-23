@@ -3,8 +3,8 @@ import './Navbar.css';
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0  bg-slate-400 w-full p-4 fade-in-from-top">
-      <div className="container mx-auto">
+    <header>
+      <nav className="fade-in-from-top fixed top-0 z-20 w-full overflow-x-hidden bg-slate-400 p-4">
         <div className="flex items-center justify-between">
           <Link href="/">Eric Dang</Link>
 
@@ -18,7 +18,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
