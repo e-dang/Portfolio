@@ -4,7 +4,7 @@ import './Navbar.css';
 export const Navbar = () => {
   return (
     <header>
-      <nav className="fade-in-from-top fixed top-0 z-20 w-full overflow-x-hidden bg-slate-400 p-4">
+      <nav className="fade-in-from-top fixed top-0 z-20 w-full bg-slate-400 p-4">
         <div className="flex items-center justify-between">
           <Link href="/">Eric Dang</Link>
 

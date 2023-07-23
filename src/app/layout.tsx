@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
+      <body className={`${inter.className} h-screen w-screen overflow-y-auto overflow-x-hidden`}>
         <Navbar />
         {children}
       </body>
