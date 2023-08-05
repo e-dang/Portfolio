@@ -3,37 +3,35 @@ import Link from 'next/link';
 
 export default function Projects() {
   return (
-    <div className="mt-24 mx-auto max-w-screen-xl">
+    <div className="mx-auto mt-24 max-w-screen-xl">
       <div className="flex justify-between">
-        <aside className="w-1/2 sticky top-24 h-max">
+        <aside className="sticky top-24 h-max w-1/2">
           <div className="flex flex-row justify-center">
             <ul className="flex flex-col space-y-4">
               <li>
-                <Link href="#project-1">Project 1</Link>
+                <Link href="#Autogarden">Autogarden</Link>
               </li>
               <li>
-                <Link href="#project-2">Project 2</Link>
-              </li>
-              <li>
-                <Link href="#project-3">Project 3</Link>
-              </li>
-              <li>
-                <Link href="#project-4">Project 4</Link>
-              </li>
-              <li>
-                <Link href="#project-5">Project 5</Link>
+                <Link href="#Path-Finding-Algorithm-Visualizer">Path-Finding Algorithm Visualizer</Link>
               </li>
             </ul>
           </div>
         </aside>
 
-        <main className="w-1/2 ml-auto">
+        <main className="ml-auto w-1/2">
           <div className="flex flex-col space-y-4">
-            <ProjectCard id="project-1" />
-            <ProjectCard id="project-2" />
-            <ProjectCard id="project-3" />
-            <ProjectCard id="project-4" />
-            <ProjectCard id="project-5" />
+            <ProjectCard
+              id="Autogarden"
+              title="Autogarden"
+              summary="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem?"
+              technologies={['Python', 'Javascript', 'C/C++']}
+            />
+            <ProjectCard
+              id="Path-Finding Algorithm Visualizer"
+              title="Path-Finding Algorithm Visualizer"
+              summary="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident dolore minus numquam aliquid eius, nostrum cum expedita repudiandae, nam aperiam delectus distinctio pariatur quas? Maxime eius iste numquam ratione rem?"
+              technologies={['JavaScript']}
+            />
           </div>
         </main>
       </div>

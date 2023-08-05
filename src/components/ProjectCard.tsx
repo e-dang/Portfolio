@@ -1,52 +1,26 @@
-export const ProjectCard: React.FC<React.ComponentProps<'div'>> = (props) => {
+import {Badge} from './Badge';
+
+export interface ProjectCardProps extends React.ComponentProps<'div'> {
+  title: string;
+  summary: string;
+  technologies: string[];
+}
+
+export const ProjectCard: React.FC<ProjectCardProps> = ({title, summary, technologies, ...props}) => {
   return (
     <div className="container bg-blue-300  p-5" {...props}>
-      <h1 className="text-4xl">Project Name</h1>
+      <h1 className="text-4xl">{title}</h1>
 
       <div className="mt-4 w-full">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a consequatur atque ab modi voluptatum
-          praesentium temporibus accusamus saepe facere sequi, impedit fuga at deleniti, tempore quam necessitatibus
-          recusandae nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas quae dolorum aperiam
-          consequatur provident fugit officiis itaque! Tempore illum deleniti eaque similique harum eos perspiciatis ut
-          voluptates optio dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum rerum
-          repudiandae amet velit, nisi cum laboriosam dicta doloribus, asperiores eius, voluptate perspiciatis
-          voluptates doloremque mollitia! Sed architecto eos velit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a consequatur atque ab modi voluptatum
-          praesentium temporibus accusamus saepe facere sequi, impedit fuga at deleniti, tempore quam necessitatibus
-          recusandae nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas quae dolorum aperiam
-          consequatur provident fugit officiis itaque! Tempore illum deleniti eaque similique harum eos perspiciatis ut
-          voluptates optio dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum rerum
-          repudiandae amet velit, nisi cum laboriosam dicta doloribus, asperiores eius, voluptate perspiciatis
-          voluptates doloremque mollitia! Sed architecto eos velit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a consequatur atque ab modi voluptatum
-          praesentium temporibus accusamus saepe facere sequi, impedit fuga at deleniti, tempore quam necessitatibus
-          recusandae nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas quae dolorum aperiam
-          consequatur provident fugit officiis itaque! Tempore illum deleniti eaque similique harum eos perspiciatis ut
-          voluptates optio dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum rerum
-          repudiandae amet velit, nisi cum laboriosam dicta doloribus, asperiores eius, voluptate perspiciatis
-          voluptates doloremque mollitia! Sed architecto eos velit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a consequatur atque ab modi voluptatum
-          praesentium temporibus accusamus saepe facere sequi, impedit fuga at deleniti, tempore quam necessitatibus
-          recusandae nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas quae dolorum aperiam
-          consequatur provident fugit officiis itaque! Tempore illum deleniti eaque similique harum eos perspiciatis ut
-          voluptates optio dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum rerum
-          repudiandae amet velit, nisi cum laboriosam dicta doloribus, asperiores eius, voluptate perspiciatis
-          voluptates doloremque mollitia! Sed architecto eos velit.
-        </p>
+        <p>{summary}</p>
       </div>
 
-      <ul className="grid grid-flow-col grid-rows-1 mt-3">
-        <li>Typescript</li>
-        <li>Kubernetes</li>
-        <li>Docker</li>
-        <li>Python</li>
+      <ul className="mt-3 flex flex-row flex-wrap space-x-3">
+        {technologies.map((tech) => (
+          <li key={tech}>
+            <Badge>{tech}</Badge>
+          </li>
+        ))}
       </ul>
     </div>
   );
