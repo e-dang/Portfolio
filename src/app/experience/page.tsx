@@ -5,13 +5,13 @@ export default function Experience() {
   return (
     <>
       <div className="mask fixed top-0 z-10 h-[26rem] w-full"></div>
-      <div className="fixed top-14 z-20 h-20 w-full bg-white"></div>
+      <div className="fixed top-14 z-20 h-20 w-full bg-neutral-800"></div>
 
       <main className="mx-auto mt-32 max-w-screen-xl">
         <div className="relative before:absolute before:bottom-0 before:left-1/4 before:top-1 before:z-10 before:w-2 before:bg-black before:content-['']">
           <div className="sticky left-1/4 top-32 z-20 w-1/2">
             <div className="relative -left-8 flex flex-shrink">
-              <h1 className="border-b-8 border-black bg-white p-6 text-6xl">Work Experience</h1>
+              <h1 className="border-b-8 border-black bg-neutral-800 p-6 text-6xl">Work Experience</h1>
             </div>
           </div>
 
