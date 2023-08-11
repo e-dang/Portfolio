@@ -17,26 +17,29 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   ...props
 }) => {
   return (
-    <div className="rounded-lg border-2 border-black p-4" {...props}>
+    <div className="rounded-lg border-2 border-purple-500 p-10" {...props}>
       <h1 className="text-4xl">
-        {title} - {company}
+        {title} @ {company}
       </h1>
 
-      <div className="mt-4">
+      <div className="mt-8">
         <p>{summary}</p>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-8">
         <ul>
           {achievements.map((achievement, index) => (
-            <li key={index}>
-              <p>{achievement}</p>
+            <li
+              key={index}
+              className="relative mb-4 pl-5 before:absolute before:left-0 before:top-2 before:h-2 before:w-2 before:rounded before:border-2 before:border-solid before:border-purple-500 before:content-['']"
+            >
+              {achievement}
             </li>
           ))}
         </ul>
       </div>
 
-      <ul className="mt-3 flex flex-row flex-wrap space-x-3">
+      <ul className="mt-8 flex flex-row flex-wrap gap-4">
         {technologies.map((tech) => (
           <li key={tech}>
             <Badge>{tech}</Badge>
