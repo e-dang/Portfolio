@@ -14,6 +14,7 @@ export const NavLink: React.FC<React.ComponentProps<typeof Link>> = ({children, 
         isActive ? 'active after:bg-purple-500' : 'animate-border after:hover:bg-purple-500'
       }`}
     >
+      <div className="absolute -left-[.31rem] top-3 h-2 w-2 bg-neutral-900" />
       <Link {...props}>{children}</Link>
     </div>
   );
