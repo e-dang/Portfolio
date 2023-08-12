@@ -13,20 +13,3 @@
 .fade-in-from-top {
   animation: fadeInFromTop 0.5s ease-in-out;
 }
-
-@property --gradient-angle {
-  syntax: '<angle>';
-  initial-value: 0.03turn;
-  inherits: true;
-}
-
-.animate-border:hover::after {
-  mask: conic-gradient(from 270deg, rgba(0, 0, 0, 0) var(--gradient-angle), rgba(0, 0, 0) var(--gradient-angle));
-  animation: rotation 0.5s reverse forwards ease-in-out;
-}
-
-@keyframes rotation {
-  to {
-    --gradient-angle: 1turn;
-  }
-}
