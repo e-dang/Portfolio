@@ -9,10 +9,16 @@ export default function Projects() {
           <div className="flex flex-row justify-center">
             <ul className="flex flex-col space-y-4">
               <li>
-                <Link href="#Autogarden">Autogarden</Link>
+                <Link className="flex flex-row items-center" href="#Autogarden">
+                  <div className="relative mr-6 h-0.5 w-8 bg-purple-500 before:absolute before:-left-2 before:bottom-0 before:top-0 before:my-auto before:h-2 before:w-2 before:rounded-full before:border-2 before:border-solid before:border-purple-500  before:content-[''] after:absolute after:-right-2 after:bottom-0 after:top-0 after:my-auto after:h-2 after:w-2 after:rounded-full after:border-2 after:border-solid after:border-purple-500  after:content-['']" />
+                  <span>Autogarden</span>
+                </Link>
               </li>
               <li>
-                <Link href="#Path-Finding-Algorithm-Visualizer">Path-Finding Algorithm Visualizer</Link>
+                <Link className="flex flex-row items-center" href="#Path-Finding-Algorithm-Visualizer">
+                  <div className="relative mr-6 h-0.5 w-8 bg-purple-500 before:absolute before:-left-2 before:bottom-0 before:top-0 before:my-auto before:h-2 before:w-2 before:rounded-full before:border-2 before:border-solid before:border-purple-500  before:content-[''] after:absolute after:-right-2 after:bottom-0 after:top-0 after:my-auto after:h-2 after:w-2 after:rounded-full after:border-2 after:border-solid after:border-purple-500  after:content-['']" />
+                  <span>Path-Finding Algorithm Visualizer</span>
+                </Link>
               </li>
             </ul>
           </div>
