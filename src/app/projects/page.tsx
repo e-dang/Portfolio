@@ -2,26 +2,27 @@ import {ProjectCard, ProjectCardHeader, ProjectCardLink} from '@/components/Proj
 import Image from 'next/image';
 import Link from 'next/link';
 import {AiFillGithub} from 'react-icons/ai';
+import './page.css';
 
 export default function Projects() {
   return (
     <div className="mx-auto max-w-screen-xl px-6 pt-24 md:px-12 lg:px-24">
       <div className="flex justify-between gap-4">
-        <aside className="sticky top-24 w-1/3">
-          <ul className="flex flex-col gap-4">
-            <li>
+        <aside className="w-1/3">
+          <ul className="test sticky top-24 before:absolute before:-bottom-10 before:-left-20 before:-top-10 before:right-0 before:-z-10   before:rounded-full before:backdrop-blur-xl before:content-['']">
+            <li className="py-2">
               <Link className="flex flex-row items-center" href="#Autogarden">
                 <div className="relative mr-6 h-0.5 w-8 bg-purple-500 before:absolute before:-left-2 before:bottom-0 before:top-0 before:my-auto before:h-2 before:w-2 before:rounded-full before:border-2 before:border-solid before:border-purple-500  before:content-[''] after:absolute after:-right-2 after:bottom-0 after:top-0 after:my-auto after:h-2 after:w-2 after:rounded-full after:border-2 after:border-solid after:border-purple-500  after:content-['']" />
                 <span>Autogarden</span>
               </Link>
             </li>
-            <li>
+            <li className="py-2">
               <Link className="flex flex-row items-center" href="#Path-Finding-Algorithm-Visualizer">
                 <div className="relative mr-6 h-0.5 w-8 bg-purple-500 before:absolute before:-left-2 before:bottom-0 before:top-0 before:my-auto before:h-2 before:w-2 before:rounded-full before:border-2 before:border-solid before:border-purple-500  before:content-[''] after:absolute after:-right-2 after:bottom-0 after:top-0 after:my-auto after:h-2 after:w-2 after:rounded-full after:border-2 after:border-solid after:border-purple-500  after:content-['']" />
                 <span>Path-Finding Algorithm Visualizer</span>
               </Link>
             </li>
-            <li>
+            <li className="py-2">
               <Link className="flex flex-row items-center" href="#Web-Games">
                 <div className="relative mr-6 h-0.5 w-8 bg-purple-500 before:absolute before:-left-2 before:bottom-0 before:top-0 before:my-auto before:h-2 before:w-2 before:rounded-full before:border-2 before:border-solid before:border-purple-500  before:content-[''] after:absolute after:-right-2 after:bottom-0 after:top-0 after:my-auto after:h-2 after:w-2 after:rounded-full after:border-2 after:border-solid after:border-purple-500  after:content-['']" />
                 <span>Web Games</span>

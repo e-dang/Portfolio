@@ -1,0 +1,4 @@
+.test::before {
+  mask-image: radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mas-image: radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
+}
