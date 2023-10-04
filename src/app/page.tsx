@@ -4,7 +4,7 @@ export default function Home() {
       <div className="flex h-screen w-full flex-col items-center justify-center text-center">
         <div className="relative">
           <div
-            className="absolute -left-[15rem] -top-[15rem] -z-10 h-[calc(100%+30rem)] w-[calc(100%+30rem)] overflow-x-visible rounded-full backdrop-blur-xl"
+            className="absolute -left-[15rem] -top-[15rem] -z-10 h-[calc(100%+30rem)] w-[calc(100%+30rem)] rounded-full backdrop-blur-xl"
             style={{
               WebkitMaskImage: 'radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%)',
               maskImage: 'radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%)',
