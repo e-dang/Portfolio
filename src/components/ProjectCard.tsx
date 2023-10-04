@@ -12,7 +12,7 @@ export interface ProjectCardProps extends React.ComponentProps<'div'> {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({header, images, summary, links, technologies}) => {
   return (
-    <div className="grid grid-cols-8 rounded bg-neutral-700/40 p-10 backdrop-blur-md hover:bg-neutral-700/60 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
+    <div className="grid grid-cols-8 gap-4 rounded bg-neutral-700/40 p-10 backdrop-blur-md hover:bg-neutral-700/60 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
       <div className="col-span-2 flex flex-col gap-4">{images}</div>
 
       <div className="col-span-6 flex flex-col gap-4">
