@@ -3,7 +3,6 @@ import {ProjectCard, ProjectCardHeader, ProjectCardLink} from '@/components/Proj
 import Image from 'next/image';
 import {AiFillGithub} from 'react-icons/ai';
 import {useEffect, useRef, useState} from 'react';
-import './page.css';
 import {SectionLink} from '@/components/SectionLink';
 
 enum SectionIds {
@@ -45,7 +44,7 @@ export default function Projects() {
     <div className="mx-auto max-w-screen-xl px-6 pt-24 md:px-12 lg:px-24">
       <div className="flex justify-between gap-4">
         <aside className="w-1/3">
-          <ul className="side-nav-list sticky top-24 before:absolute before:-bottom-10 before:-left-20 before:-top-10 before:right-0 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
+          <ul className="blur-mask sticky top-24 before:absolute before:-bottom-10 before:-left-20 before:-top-10 before:right-0 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
             <li className="py-2">
               <SectionLink href="#Autogarden" isActive={activeSection === SectionIds.Autogarden}>
                 Autogarden
