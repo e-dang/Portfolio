@@ -7,7 +7,7 @@ export default function Experience() {
         <div className="relative col-start-3 row-span-full before:absolute before:bottom-10 before:top-[3.75rem] before:w-[0.2rem] before:bg-purple-700 before:content-['']"></div>
 
         <div className="col-start-1 row-start-1 flex justify-end">
-          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-10 before:-left-10 before:-right-10 before:-top-10 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
+          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
             May 2021 - Current
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Experience() {
         </div>
 
         <div className="col-start-1 row-start-2 flex justify-end">
-          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-10 before:-left-10 before:-right-10 before:-top-10 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
+          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
             February 2019 - June 2020
           </div>
         </div>
