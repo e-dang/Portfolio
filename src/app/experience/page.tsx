@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <>
       <Navbar />
-      <main className="mx-auto max-w-screen-xl px-12 pt-32">
+      <main className="mx-auto max-w-screen-xl px-12 pt-48">
         <div className="grid grid-cols-[10rem_5rem_5rem_1fr] grid-rows-[auto_auto] gap-x-2 pb-24">
           <div className="relative col-start-3 row-span-full before:absolute before:bottom-0 before:top-[3.75rem] before:w-[0.2rem] before:bg-purple-500 before:content-[''] after:absolute after:-bottom-4 after:-left-[0.41rem] after:h-4 after:w-4 after:rounded-full after:border-[0.2rem] after:border-purple-500 after:content-['']" />
 
