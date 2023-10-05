@@ -1,0 +1,7 @@
+.active > .side-nav-bar {
+  @apply w-12;
+}
+
+.active > .side-nav-text {
+  @apply text-white;
+}
