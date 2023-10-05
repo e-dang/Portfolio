@@ -14,9 +14,9 @@ export const TimelineSection: React.FC<TimelineSectionProps> = ({idx, dateRange,
       </div>
 
       <div
-        className={`relative col-start-2 row-start-${idx} before:absolute before:-left-1 before:top-[0.3rem] before:h-4 before:w-4 before:rounded-full before:border-[0.2rem] before:border-purple-700 before:content-['']`}
+        className={`relative col-start-2 row-start-${idx} before:absolute before:-left-1 before:top-[0.3rem] before:h-4 before:w-4 before:rounded-full before:border-[0.2rem] before:border-purple-500 before:content-['']`}
       >
-        <div className="absolute left-1 top-[2.3rem] h-[0.2rem] w-[calc(100%+0.8rem)] rotate-[30deg] bg-purple-700 " />
+        <div className="absolute left-1 top-[2.3rem] h-[0.2rem] w-[calc(100%+0.8rem)] rotate-[30deg] bg-purple-500 " />
       </div>
 
       <div className={`col-start-4 row-start-${idx} pb-10 pt-[3.75rem]`}>{children}</div>
