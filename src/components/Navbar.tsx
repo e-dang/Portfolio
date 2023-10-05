@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import './Navbar.css';
 import {NavLink} from './NavLink';
 
 export const Navbar = () => {
   return (
     <header>
-      <nav className="fade-in-from-top fixed top-0 z-20 w-full bg-neutral-900 p-4">
+      <nav className="fixed top-0 z-20 w-full bg-neutral-900 p-4">
         <div className="flex items-center justify-between">
           <Link href="/">Eric Dang</Link>
 
