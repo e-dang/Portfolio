@@ -6,3 +6,24 @@
   mask-image: radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
   -webkit-mas-image: radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
 }
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-purple-500;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-purple-700;
+}
+
+html {
+  scrollbar-color: theme('colors.purple.500') theme('colors.neutral.900');
+  scrollbar-width: thin;
+}
