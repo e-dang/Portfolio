@@ -1,4 +1,5 @@
 import {ExperienceCard} from '@/components/ExperienceCard';
+import {TimelineSection} from '@/components/TimelineSection';
 
 export default function Experience() {
   return (
@@ -6,17 +7,7 @@ export default function Experience() {
       <div className="grid grid-cols-[10rem_5rem_5rem_1fr] grid-rows-[auto_auto] gap-x-2 pb-24">
         <div className="relative col-start-3 row-span-full before:absolute before:bottom-0 before:top-[3.75rem] before:w-[0.2rem] before:bg-purple-700 before:content-[''] after:absolute after:-bottom-4 after:-left-[0.41rem] after:h-4 after:w-4 after:rounded-full after:border-[0.2rem] after:border-purple-700 after:content-['']" />
 
-        <div className="col-start-1 row-start-1 flex justify-end">
-          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
-            May 2021 - Current
-          </div>
-        </div>
-
-        <div className="relative col-start-2 row-start-1 before:absolute before:-left-1 before:top-[0.3rem] before:h-4 before:w-4 before:rounded-full before:border-[0.2rem] before:border-purple-700 before:content-['']">
-          <div className="absolute left-1 top-[2.3rem] h-[0.2rem] w-[calc(100%+0.8rem)] rotate-[30deg] bg-purple-700 " />
-        </div>
-
-        <div className="col-start-4 row-start-1 pb-10 pt-[3.75rem]">
+        <TimelineSection idx={1} dateRange="May 2021 - Current">
           <ExperienceCard
             header="Software Engineer @ Fulgent Genetics"
             summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
@@ -35,19 +26,9 @@ export default function Experience() {
             ]}
             technologies={['Typescript', 'Kubernetes', 'Docker', 'Node.JS', 'Vue.JS']}
           />
-        </div>
+        </TimelineSection>
 
-        <div className="col-start-1 row-start-2 flex justify-end">
-          <div className="blur-mask relative h-min w-full before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
-            February 2019 - June 2020
-          </div>
-        </div>
-
-        <div className="relative col-start-2 row-start-2 before:absolute before:-left-1 before:top-[0.3rem] before:h-4 before:w-4 before:rounded-full before:border-[0.2rem] before:border-purple-700 before:content-['']">
-          <div className="absolute left-1 top-[2.3rem] h-[0.2rem] w-[calc(100%+0.8rem)] rotate-[30deg] bg-purple-700 " />
-        </div>
-
-        <div className="col-start-4 row-start-2 pb-10 pt-[3.75rem]">
+        <TimelineSection idx={2} dateRange="February 2019 - June 2020">
           <ExperienceCard
             header="Software Engineer @ University of California, Los Angeles"
             summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
@@ -60,7 +41,7 @@ export default function Experience() {
             ]}
             technologies={['Python', 'RDKit']}
           />
-        </div>
+        </TimelineSection>
       </div>
     </main>
   );
