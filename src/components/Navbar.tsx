@@ -1,12 +1,36 @@
 import Link from 'next/link';
 import {NavLink} from './NavLink';
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import {ProjectCardLink} from './ProjectCard';
 
 export const Navbar = () => {
   return (
     <header>
       <nav className="fixed top-0 z-20 w-full bg-neutral-900 p-4">
         <div className="flex items-center justify-between">
-          <Link href="/">Eric Dang</Link>
+          <div className="flex flex-row gap-10">
+            <Link href="/">Eric Dang</Link>
+
+            <div className="group flex flex-row gap-4">
+              <a
+                href="https://www.linkedin.com/in/eric-dang-1157501b2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-all hover:-translate-y-1 hover:!text-purple-400 group-hover:text-gray-500"
+              >
+                <AiFillGithub size="1.75rem" className="inline-block" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/eric-dang-1157501b2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-all hover:-translate-y-1 hover:!text-purple-400 group-hover:text-gray-500"
+              >
+                <AiFillLinkedin size="1.75rem" className="inline-block" />
+              </a>
+            </div>
+          </div>
 
           <ul className="flex space-x-4">
             <li>
