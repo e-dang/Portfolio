@@ -42,11 +42,11 @@ export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, ch
       rel="noopener noreferrer"
       className="group/link before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:z-0 before:content-['']"
     >
-      <h1 className="text-4xl group-hover/link:text-purple-400">
+      <h1 className="text-4xl leading-tight group-hover/link:text-purple-400">
         {children}{' '}
         <FiExternalLink
           size="1.5rem"
-          className="ml-1 inline text-center align-middle transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-hover/link:text-purple-400"
+          className="inline align-middle transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-hover/link:text-purple-400"
         />
       </h1>
     </a>
