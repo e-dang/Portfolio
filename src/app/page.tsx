@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import {AiOutlineArrowRight} from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -16,14 +17,20 @@ export default function Home() {
             <h1 className="text-8xl">Hello, I&apos;m Eric Dang</h1>
             <h3 className="text-3xl">Software Engineer</h3>
             <div className="flex flex-row justify-center gap-4 pt-4">
-              <Link className="rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500" href="/projects">
-                Projects
-              </Link>
               <Link
-                className="rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500"
+                className="group rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500"
+                href="/projects"
+              >
+                Projects
+                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-fit" />
+              </Link>
+
+              <Link
+                className="group rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500"
                 href="/experience"
               >
                 Experience
+                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-fit" />
               </Link>
             </div>
           </div>
