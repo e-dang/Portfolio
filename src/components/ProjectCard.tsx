@@ -41,7 +41,7 @@ export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, ch
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="group/link before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:z-0 before:content-['']"
+      className="group/link before:absolute before:inset-0 before:z-0 before:content-['']"
     >
       <h1 className="text-4xl leading-tight group-hover/link:text-purple-400">
         {children}{' '}
