@@ -1,15 +1,15 @@
 'use client';
 import Link from 'next/link';
-import './NavLink.css';
+import './InternalNavLink.css';
 import {usePathname} from 'next/navigation';
 import {useMemo} from 'react';
 
-export interface NavLinkProps {
+export interface InternalNavLinkProps {
   href: string;
   children: React.ReactNode;
 }
 
-export const NavLink: React.FC<NavLinkProps> = ({href, children}) => {
+export function InternalNavLink({href, children}: InternalNavLinkProps) {
   const pathname = usePathname();
   const isActive = useMemo(() => pathname === href, [pathname, href]);
 
@@ -24,4 +24,4 @@ export const NavLink: React.FC<NavLinkProps> = ({href, children}) => {
       {children}
     </Link>
   );
-};
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {NavLink} from './NavLink';
+import {InternalNavLink} from './InternalNavLink';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 
 export const Navbar = () => {
@@ -33,11 +33,11 @@ export const Navbar = () => {
 
           <ul className="flex gap-4">
             <li>
-              <NavLink href="/projects">Projects</NavLink>
+              <InternalNavLink href="/projects">Projects</InternalNavLink>
             </li>
 
             <li>
-              <NavLink href="/experience">Experience</NavLink>
+              <InternalNavLink href="/experience">Experience</InternalNavLink>
             </li>
           </ul>
         </div>
