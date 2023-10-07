@@ -43,13 +43,13 @@ export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, ch
       rel="noopener noreferrer"
       className="group/link before:absolute before:inset-0 before:z-0 before:content-['']"
     >
-      <h1 className="text-4xl leading-tight group-hover/link:text-purple-400">
+      <h3 className="text-4xl leading-tight group-hover/link:text-purple-400">
         {children}{' '}
         <FiExternalLink
           size="1.5rem"
           className="inline align-middle transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-hover/link:text-purple-400"
         />
-      </h1>
+      </h3>
     </a>
   );
 };
