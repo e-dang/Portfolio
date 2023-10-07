@@ -1,14 +1,13 @@
 import Link from 'next/link';
 import {NavLink} from './NavLink';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
-import {ProjectCardLink} from './ProjectCard';
 
 export const Navbar = () => {
   return (
     <header>
-      <nav className="fixed top-0 z-20 w-full bg-neutral-900 p-4">
+      <nav className="fixed top-0 z-10 w-full bg-neutral-900 p-4">
         <div className="flex items-center justify-between">
-          <div className="flex flex-row gap-10">
+          <div className="flex flex-row gap-12">
             <Link href="/">Eric Dang</Link>
 
             <div className="group flex flex-row gap-4">
@@ -32,7 +31,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <ul className="flex space-x-4">
+          <ul className="flex gap-4">
             <li>
               <NavLink href="/projects">Projects</NavLink>
             </li>
