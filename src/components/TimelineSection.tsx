@@ -7,8 +7,8 @@ export interface TimelineSectionProps {
 export const TimelineSection: React.FC<TimelineSectionProps> = ({idx, dateRange, children}) => {
   return (
     <>
-      <div className={`col-start-1 row-start-${idx} flex justify-end`}>
-        <div className="blur-mask relative h-min w-full before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
+      <div className={`col-start-1 row-start-${idx} flex`}>
+        <div className="blur-mask relative h-min w-full pr-2 text-right before:absolute before:-bottom-20 before:-left-10 before:-right-10 before:-top-20 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
           {dateRange}
         </div>
       </div>
