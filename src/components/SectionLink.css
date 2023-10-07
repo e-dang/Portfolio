@@ -1,5 +1,5 @@
 .active > .side-nav-bar {
-  @apply w-12;
+  @apply min-w-[3rem];
 }
 
 .active > .side-nav-text {
