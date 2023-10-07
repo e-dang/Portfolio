@@ -13,17 +13,17 @@ export interface ProjectCardProps extends React.ComponentProps<'div'> {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({header, images, summary, links, technologies}) => {
   return (
-    <div className="grid grid-cols-8 gap-6 rounded bg-neutral-700/40 p-10 backdrop-blur-md hover:bg-neutral-700/60 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
-      <div className="col-span-2 flex flex-col gap-4">{images}</div>
+    <div className="grid grid-cols-8 gap-8 rounded bg-neutral-700/40 p-10 backdrop-blur-lg hover:bg-neutral-700/60 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
+      <div className="col-span-2 flex flex-col gap-8">{images}</div>
 
-      <div className="col-span-6 flex flex-col gap-4">
+      <div className="col-span-6 flex flex-col gap-8">
         {header}
 
-        <div className="flex flex-col gap-2">{summary}</div>
+        <div className="flex flex-col gap-4 text-slate-200">{summary}</div>
 
-        <div className="flex flex-row gap-2">{links}</div>
+        <div className="flex flex-row gap-4">{links}</div>
 
-        <ul className="flex flex-row flex-wrap gap-2">
+        <ul className="flex flex-row flex-wrap gap-4">
           {technologies.map((tech) => (
             <li key={tech}>
               <Badge>{tech}</Badge>
@@ -70,7 +70,7 @@ export interface ProjectCardImageProps {
 export function ProjectCardImage({src, alt}: ProjectCardImageProps) {
   return (
     <div
-      className="relative after:absolute after:inset-0 after:bg-purple-500/30
+      className="relative after:absolute after:inset-0 after:bg-purple-300/40
 after:content-['']"
     >
       <Image src={src} alt={alt} width={200} height={48} />
