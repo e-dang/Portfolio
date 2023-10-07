@@ -1,6 +1,5 @@
 'use client';
-import {ProjectCard, ProjectCardHeader, ProjectCardLink} from '@/components/ProjectCard';
-import Image from 'next/image';
+import {ProjectCard, ProjectCardHeader, ProjectCardLink, ProjectCardImage} from '@/components/ProjectCard';
 import {AiFillGithub} from 'react-icons/ai';
 import {useEffect, useRef, useState} from 'react';
 import {SectionLink} from '@/components/SectionLink';
@@ -74,14 +73,7 @@ export default function Projects() {
             >
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Autogarden">Autogarden</ProjectCardHeader>}
-                images={
-                  <Image
-                    src="/pathfinding.png"
-                    alt="Picture of the Path Finding Algorithm Website"
-                    width={100}
-                    height={100}
-                  />
-                }
+                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
                 summary={
                   <>
                     <p>
@@ -116,14 +108,7 @@ export default function Projects() {
                     Path-Finding Algorithm Visualizer
                   </ProjectCardHeader>
                 }
-                images={
-                  <Image
-                    src="/pathfinding.png"
-                    alt="Picture of the Path Finding Algorithm Website"
-                    width={100}
-                    height={100}
-                  />
-                }
+                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
                 summary={
                   <>
                     <p>
@@ -168,14 +153,7 @@ export default function Projects() {
             >
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Web-Games">Web Games</ProjectCardHeader>}
-                images={
-                  <Image
-                    src="/pathfinding.png"
-                    alt="Picture of the Path Finding Algorithm Website"
-                    width={100}
-                    height={100}
-                  />
-                }
+                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
                 summary={
                   <>
                     <p>
