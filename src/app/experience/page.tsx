@@ -1,4 +1,4 @@
-import {ExperienceCard} from '@/components/ExperienceCard';
+import {ExperienceCard, ExperienceCardHeader} from '@/components/ExperienceCard';
 import {Navbar} from '@/components/Navbar';
 import {TimelineSection} from '@/components/TimelineSection';
 
@@ -12,7 +12,14 @@ export default function Experience() {
 
           <TimelineSection idx={1} dateRange="May 2021 - Current">
             <ExperienceCard
-              header="Software Engineer @ Fulgent Genetics"
+              header={
+                <ExperienceCardHeader
+                  currentTitle="Senior Software Engineer"
+                  previousTitles={['Software Engineer']}
+                  company="Fulgent Genetics"
+                  href="https://www.fulgentgenetics.com/"
+                />
+              }
               summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
               achievements={[
                 'Developed and deployed the user interface of the Fulgent Oncology Provider Portal, facilitating healthcare providers in managing patient information, orders, and accessing test results and requisition forms.',
@@ -33,7 +40,9 @@ export default function Experience() {
 
           <TimelineSection idx={2} dateRange="February 2019 - June 2020">
             <ExperienceCard
-              header="Software Engineer @ University of California, Los Angeles"
+              header={
+                <ExperienceCardHeader currentTitle="Software Engineer" company="UCLA" href="https://www.ucla.edu/" />
+              }
               summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
               achievements={[
                 'Created novel software (CPMG) for generating a giga-scale virtual library consisting of 2D structure macrocycle drug candidates for high throughput screening.',
