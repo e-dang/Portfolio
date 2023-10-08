@@ -118,6 +118,10 @@ export default function Projects() {
                       src="/a_star_prims.gif"
                       alt="A* Search and maze generation with Randomized Prim's Algorithm"
                     />
+                    <ProjectCardImage
+                      src="/bidirectional_recursive_division.gif"
+                      alt="Bidirectional Search and maze generation with Recursive Division"
+                    />
                   </>
                 }
                 summary={
