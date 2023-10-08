@@ -130,6 +130,10 @@ export default function Projects() {
                       src="/a_star_recursive_div_weights.gif"
                       alt="A* Search and Recursive Division weight maze generation"
                     />
+                    <ProjectCardImage
+                      src="/a_star_random_weights.gif"
+                      alt="A* Search and Random Weight maze generation"
+                    />
                   </>
                 }
                 summary={
