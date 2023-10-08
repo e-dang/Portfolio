@@ -12,7 +12,7 @@ export const Navbar = () => {
 
             <div className="group flex flex-row gap-4">
               <a
-                href="https://www.linkedin.com/in/eric-dang-1157501b2/"
+                href="https://github.com/e-dang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover:text-gray-500/50"
