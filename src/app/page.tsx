@@ -5,15 +5,8 @@ export default function Home() {
   return (
     <main>
       <div className="flex h-screen w-full flex-col items-center justify-center text-center">
-        <div className="relative">
-          <div
-            className="absolute -left-[15rem] -top-[15rem] -z-10 h-[calc(100%+30rem)] w-[calc(100%+30rem)] rounded-full backdrop-blur-xl"
-            style={{
-              WebkitMaskImage: 'radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%)',
-              maskImage: 'radial-gradient(ellipse, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%)',
-            }}
-          />
-          <div className="flex flex-col">
+        <div className="blur-mask relative before:absolute before:-inset-x-60 before:-inset-y-60 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
+          <div className="fade-in flex flex-col">
             <h1 className="text-8xl tracking-tighter">Hello, I&apos;m Eric Dang</h1>
             <h3 className="pt-12 text-3xl">Software Engineer</h3>
             <div className="flex flex-row justify-center gap-4 pt-16">
