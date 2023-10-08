@@ -126,6 +126,10 @@ export default function Projects() {
                       src="/greedy_best_first_prims.gif"
                       alt="Greedy Best-First Search and maze generation with Randomized Prim's Algorithm"
                     />
+                    <ProjectCardImage
+                      src="/a_star_recursive_div_weights.gif"
+                      alt="A* Search and Recursive Division weight maze generation"
+                    />
                   </>
                 }
                 summary={
