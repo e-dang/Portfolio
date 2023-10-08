@@ -15,7 +15,7 @@ export const Navbar = () => {
                 href="https://www.linkedin.com/in/eric-dang-1157501b2/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-all hover:-translate-y-1 hover:!text-purple-400 group-hover:text-gray-500"
+                className="transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover:text-gray-500/50"
               >
                 <AiFillGithub size="1.75rem" className="inline-block" />
               </a>
@@ -24,7 +24,7 @@ export const Navbar = () => {
                 href="https://www.linkedin.com/in/eric-dang-1157501b2/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-all hover:-translate-y-1 hover:!text-purple-400 group-hover:text-gray-500"
+                className="transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover:text-gray-500/50"
               >
                 <AiFillLinkedin size="1.75rem" className="inline-block" />
               </a>

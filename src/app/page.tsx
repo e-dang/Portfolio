@@ -18,7 +18,7 @@ export default function Home() {
             <h3 className="pt-12 text-3xl">Software Engineer</h3>
             <div className="flex flex-row justify-center gap-4 pt-16">
               <Link
-                className="group rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500"
+                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
                 href="/projects"
               >
                 Projects
@@ -26,7 +26,7 @@ export default function Home() {
               </Link>
 
               <Link
-                className="group rounded-lg border-4 border-purple-500 p-4 text-xl hover:bg-purple-500"
+                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
                 href="/experience"
               >
                 Experience

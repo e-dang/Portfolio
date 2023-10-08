@@ -16,14 +16,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply rounded-full bg-purple-500;
+  @apply rounded-full bg-violet-500;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-purple-700;
+  @apply bg-violet-700;
 }
 
 html {
-  scrollbar-color: theme('colors.purple.500') theme('colors.neutral.900');
+  scrollbar-color: theme('colors.violet.500') theme('colors.neutral.900');
   scrollbar-width: thin;
 }
