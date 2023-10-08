@@ -112,27 +112,27 @@ export default function Projects() {
                   <>
                     <ProjectCardImage
                       src="/dijkstra_random_dfs.gif"
-                      alt="Dijkstra's Algorithm search and maze generation with Randomized DFS"
+                      alt="Dijkstra's Algorithm search and Randomized DFS maze generation"
                     />
                     <ProjectCardImage
                       src="/a_star_prims.gif"
-                      alt="A* Search and maze generation with Randomized Prim's Algorithm"
+                      alt="A* Search and Randomized Prim's Algorithm maze generation"
                     />
                     <ProjectCardImage
                       src="/bidirectional_recursive_division.gif"
-                      alt="Bidirectional Search and maze generation with Recursive Division"
-                    />
-                    <ProjectCardImage
-                      src="/greedy_best_first_prims.gif"
-                      alt="Greedy Best-First Search and maze generation with Randomized Prim's Algorithm"
-                    />
-                    <ProjectCardImage
-                      src="/a_star_recursive_div_weights.gif"
-                      alt="A* Search and Recursive Division weight maze generation"
+                      alt="Bidirectional Search and Recursive Division maze generation"
                     />
                     <ProjectCardImage
                       src="/a_star_random_weights.gif"
                       alt="A* Search and Random Weight maze generation"
+                    />
+                    <ProjectCardImage
+                      src="/greedy_best_first_prims.gif"
+                      alt="Greedy Best-First Search and Randomized Prim's Algorithm maze generation"
+                    />
+                    <ProjectCardImage
+                      src="/a_star_recursive_div_weights.gif"
+                      alt="A* Search and Recursive Division weight maze generation"
                     />
                   </>
                 }
