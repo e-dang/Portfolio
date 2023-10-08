@@ -183,6 +183,7 @@ export default function Projects() {
                 images={
                   <>
                     <ProjectCardImage src="/snake.gif" alt="A game of Snake" />
+                    <ProjectCardImage src="/sudoku.gif" alt="A game of Sudoku" />
                   </>
                 }
                 summary={
