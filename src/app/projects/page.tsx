@@ -122,6 +122,10 @@ export default function Projects() {
                       src="/bidirectional_recursive_division.gif"
                       alt="Bidirectional Search and maze generation with Recursive Division"
                     />
+                    <ProjectCardImage
+                      src="/greedy_best_first_prims.gif"
+                      alt="Greedy Best-First Search and maze generation with Randomized Prim's Algorithm"
+                    />
                   </>
                 }
                 summary={
