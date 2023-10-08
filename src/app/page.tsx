@@ -6,9 +6,10 @@ export default function Home() {
     <main>
       <div className="flex h-screen w-full flex-col items-center justify-center text-center">
         <div className="blur-mask relative before:absolute before:-inset-x-60 before:-inset-y-60 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
-          <div className="fade-in flex flex-col">
+          <div className="flex animate-fade-in flex-col">
             <h1 className="text-8xl tracking-tighter">Hello, I&apos;m Eric Dang</h1>
             <h3 className="pt-12 text-3xl">Software Engineer</h3>
+
             <div className="flex flex-row justify-center gap-4 pt-16">
               <Link
                 className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
