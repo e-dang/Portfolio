@@ -65,12 +65,8 @@ export default function Projects() {
             </ul>
           </aside>
 
-          <main className="group flex w-2/3 flex-col gap-24 pb-80">
-            <section
-              className="scroll-mt-48 hover:!opacity-100 group-hover:opacity-80"
-              id={SectionIds.Autogarden}
-              data-section
-            >
+          <main className="flex w-2/3 flex-col gap-24 pb-80">
+            <section className="scroll-mt-48" id={SectionIds.Autogarden} data-section>
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Autogarden">Autogarden</ProjectCardHeader>}
                 images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
@@ -97,11 +93,7 @@ export default function Projects() {
               />
             </section>
 
-            <section
-              className="scroll-mt-48 hover:!opacity-100 group-hover:opacity-80"
-              id={SectionIds.PathAlg}
-              data-section
-            >
+            <section className="scroll-mt-48" id={SectionIds.PathAlg} data-section>
               <ProjectCard
                 header={
                   <ProjectCardHeader href="https://e-dang.github.io/Path-Finding-Algorithm-Visualizer/">
@@ -173,11 +165,7 @@ export default function Projects() {
               />
             </section>
 
-            <section
-              className="scroll-mt-48 hover:!opacity-100 group-hover:opacity-80"
-              id={SectionIds.WebGames}
-              data-section
-            >
+            <section className="scroll-mt-48" id={SectionIds.WebGames} data-section>
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Web-Games">Web Games</ProjectCardHeader>}
                 images={
