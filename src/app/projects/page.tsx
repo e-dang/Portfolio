@@ -180,7 +180,11 @@ export default function Projects() {
             >
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Web-Games">Web Games</ProjectCardHeader>}
-                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
+                images={
+                  <>
+                    <ProjectCardImage src="/snake.gif" alt="A game of Snake" />
+                  </>
+                }
                 summary={
                   <>
                     <p>
