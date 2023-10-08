@@ -8,7 +8,9 @@ export const Navbar = () => {
       <nav className="fixed top-0 z-10 w-full bg-neutral-900 p-4">
         <div className="flex items-center justify-between">
           <div className="flex flex-row gap-12">
-            <Link href="/">Eric Dang</Link>
+            <Link href="/" className="hover:text-violet-500">
+              Eric Dang
+            </Link>
 
             <div className="group flex flex-row gap-4">
               <a
