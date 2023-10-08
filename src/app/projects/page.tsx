@@ -112,7 +112,11 @@ export default function Projects() {
                   <>
                     <ProjectCardImage
                       src="/dijkstra_random_dfs.gif"
-                      alt="Dijkstra's Algorithm search and maze generate with Randomized DFS"
+                      alt="Dijkstra's Algorithm search and maze generation with Randomized DFS"
+                    />
+                    <ProjectCardImage
+                      src="/a_star_prims.gif"
+                      alt="A* Search and maze generation with Randomized Prim's Algorithm"
                     />
                   </>
                 }
