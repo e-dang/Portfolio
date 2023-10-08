@@ -108,7 +108,14 @@ export default function Projects() {
                     Path-Finding Algorithm Visualizer
                   </ProjectCardHeader>
                 }
-                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
+                images={
+                  <>
+                    <ProjectCardImage
+                      src="/dijkstra_random_dfs.gif"
+                      alt="Dijkstra's Algorithm search and maze generate with Randomized DFS"
+                    />
+                  </>
+                }
                 summary={
                   <>
                     <p>
