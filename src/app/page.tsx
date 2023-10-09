@@ -16,7 +16,7 @@ export default function Home() {
                 href="/projects"
               >
                 Projects
-                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-fit" />
+                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-auto" />
               </Link>
 
               <Link
@@ -24,7 +24,7 @@ export default function Home() {
                 href="/experience"
               >
                 Experience
-                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-fit" />
+                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-auto group-hover:min-w-min" />
               </Link>
             </div>
           </div>
