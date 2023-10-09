@@ -35,11 +35,11 @@ export const Navbar = () => {
 
           <ul className="flex gap-4">
             <li>
-              <InternalNavLink href="/projects">Projects</InternalNavLink>
+              <InternalNavLink href="/experience">Experience</InternalNavLink>
             </li>
 
             <li>
-              <InternalNavLink href="/experience">Experience</InternalNavLink>
+              <InternalNavLink href="/projects">Projects</InternalNavLink>
             </li>
           </ul>
         </div>

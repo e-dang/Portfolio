@@ -13,18 +13,18 @@ export default function Home() {
             <div className="flex flex-row justify-center gap-4 pt-16">
               <Link
                 className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
-                href="/projects"
-              >
-                Projects
-                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-auto" />
-              </Link>
-
-              <Link
-                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
                 href="/experience"
               >
                 Experience
                 <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-auto group-hover:min-w-min" />
+              </Link>
+
+              <Link
+                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
+                href="/projects"
+              >
+                Projects
+                <AiOutlineArrowRight className="invisible inline w-0 overflow-clip transition-all ease-in-out group-hover:!visible group-hover:static group-hover:ml-5 group-hover:w-auto" />
               </Link>
             </div>
           </div>
