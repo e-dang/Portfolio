@@ -10,7 +10,7 @@ interface ExperienceCardProps extends React.ComponentProps<'div'> {
 
 export const ExperienceCard: React.FC<ExperienceCardProps> = ({header, summary, achievements, technologies}) => {
   return (
-    <div className="group/experience flex flex-col gap-8 rounded  bg-neutral-800/20  p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
+    <div className="group/experience relative flex flex-col gap-8 rounded bg-neutral-800/20  p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
       {header}
 
       <div className="text-md text-slate-400">{summary}</div>

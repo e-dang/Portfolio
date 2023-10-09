@@ -13,7 +13,7 @@ export interface ProjectCardProps extends React.ComponentProps<'div'> {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({header, images, summary, links, technologies}) => {
   return (
-    <div className="grid grid-cols-8 gap-8 rounded bg-neutral-800/20 p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
+    <div className="relative grid grid-cols-8 gap-8 rounded bg-neutral-800/20 p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
       <div className="col-span-2 flex flex-col gap-8">{images}</div>
 
       <div className="col-span-6 flex flex-col gap-8">
