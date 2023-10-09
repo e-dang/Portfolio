@@ -8,6 +8,17 @@ const martian = Martian_Mono({subsets: ['latin']});
 export const metadata: Metadata = {
   title: 'Eric Dang',
   description: "Eric Dang's personal portfolio website",
+  manifest: 'https://erickdang.com/site.webmanifest',
+  openGraph: {
+    title: 'Eric Dang',
+    description: "Eric Dang's personal portfolio website",
+    url: 'https://erickdang.com',
+    siteName: 'Eric Dang',
+    images: [],
+    locale: 'en_US',
+    type: 'website',
+  },
+  themeColor: '#171717',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
