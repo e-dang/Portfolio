@@ -8,7 +8,7 @@ export default function Home() {
         <div className="blur-mask relative before:absolute before:-inset-x-60 before:-inset-y-60 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
           <div className="flex animate-fade-in flex-col">
             <h1 className="text-8xl tracking-tighter">Hello, I&apos;m Eric Dang</h1>
-            <h3 className="pt-12 text-3xl">Software Engineer</h3>
+            <h3 className="pt-12 text-3xl">Senior Software Engineer and Full-Stack Developer</h3>
 
             <div className="flex flex-row justify-center gap-4 pt-16">
               <Link
