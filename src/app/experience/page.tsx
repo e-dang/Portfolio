@@ -20,7 +20,7 @@ export default function Experience() {
                   href="https://www.fulgentgenetics.com/"
                 />
               }
-              summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
+              summary="At Fulgent Genetics, I began by integrating DevOps practices into our team's development cycle. In my second year, while continuing to manage the DevOps infrastructure I had setup, I began working on the frontend and backend for our new service, Fulgent Oncology. Now as a Senior Software Engineer, I am continuing to focus on building out features for Fulgent Oncology and optimizing our internal tooling."
               achievements={[
                 'Developed and deployed the user interface and significantly contributed to the backend development of the Fulgent Oncology Provider Portal, facilitating healthcare providers in managing patient information, orders, and accessing test results and requisition forms.',
 
@@ -41,7 +41,7 @@ export default function Experience() {
               header={
                 <ExperienceCardHeader currentTitle="Software Engineer" company="UCLA" href="https://www.ucla.edu/" />
               }
-              summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
+              summary="As a software engineer working for Dr. Harran and Dr. Houk's chemistry labs at UCLA, I created two Python programs, CPMG and ConfBuster++, for generating and screening large virtual libraries of macrocyclic drug candidates based on the chemistry developed in their labs. Using UCLA's Hoffman2 cluster, I was able to demonstrate these programs could scale to billions of compounds. Our findings are published in the Proceedings of the National Academy of Sciences."
               achievements={[
                 'Created novel software (CPMG) for generating a giga-scale virtual library consisting of 2D structure macrocycle drug candidates for high throughput screening.',
 
