@@ -173,14 +173,14 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      A website I crearted for playing Sudoku, Tic Tac Toe, and Snake. Sudoku was implemented using the
+                      A website I created for playing Sudoku, Tic Tac Toe, and Snake. Sudoku was implemented using the
                       Sudoku Solver and Generator Algorithm capable of generating puzzles of 4 different difficulties.
-                      The opponent player in Tic Tac Toe was implemented with as completely random (Easy) Minimax
-                      (Medium), and Minimax with αβ Pruning (Hard).
+                      The opponent player in Tic Tac Toe makes its moves based on 3 different algorithms - completely
+                      random moves (Easy), Minimax (Medium), and Minimax with αβ Pruning (Hard).
                     </p>
                     <p>
                       This project is fully tested with unit, integration, and functional tests written in Jest and
-                      Selenium, and is deployed to Heroku using a CI/CD pipeline.
+                      Selenium, and deploys to Heroku using a CI/CD pipeline.
                     </p>
                   </>
                 }
