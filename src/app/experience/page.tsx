@@ -22,19 +22,17 @@ export default function Experience() {
               }
               summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident ullam veniam consequatur praesentium earum qui eius assumenda, ducimus aliquam distinctio aperiam aliquid vel molestiae, magnam nemo voluptatem labore neque."
               achievements={[
-                'Developed and deployed the user interface of the Fulgent Oncology Provider Portal, facilitating healthcare providers in managing patient information, orders, and accessing test results and requisition forms.',
+                'Developed and deployed the user interface and significantly contributed to the backend development of the Fulgent Oncology Provider Portal, facilitating healthcare providers in managing patient information, orders, and accessing test results and requisition forms.',
 
-                'Developed and deployed the Fulgent Oncology Admin Portal user interface, empowering internal Fulgent employees to enroll healthcare providers in Fulgent Oncology services, and efficiently access customer data required to carry out various customer support tasks.',
+                'Created and launched the user interface for the Fulgent Oncology Admin Portal and significantly contributed to its backend development, empowering Fulgent employees to enroll healthcare providers in Fulgent Oncology services, and efficiently access customer data required to carry out various customer support tasks.',
 
-                'Developed and deployed a backend service that enables Fulgent Genetics&apos; frontend services to efficiently search for valid ICD-10 codes. Additionally, the service allows for Fulgent admins to upload new ICD-10 codes as they are released.',
+                'Developed and deployed a Node.js service to efficiently search, filter, and upload ICD-10 codes.',
 
                 'Deployed and actively managed CI pipelines, compute infrastructure (EKS), and IAM policies and roles on AWS using Terraform, enabling tracking of architectural changes in code for better code reuse and easily reproducible deployments.',
 
-                'Automated the formerly manual process of deployment using FluxCD, a GitOps style of Continuous Deployment, on staging and production EKS clusters.',
-
-                'Decoupled the Fulgent Pharma site from a monolithic app previously deployed on bare EC2 instances into Dockerized microservices deployed on Kubernetes (EKS), improving scalability, availability, resource utilization, and automation.',
+                'Automated the deployment of Fulgent’s services using FluxCD on staging and production clusters, decreasing deployment times by 92%.',
               ]}
-              technologies={['Typescript', 'Kubernetes', 'Docker', 'Node.JS', 'Vue.JS']}
+              technologies={['Typescript', 'Node.JS', 'Vue.JS', 'Docker', 'Kubernetes']}
             />
           </TimelineSection>
 
