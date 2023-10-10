@@ -73,12 +73,14 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      A website and RESTful API for configuring and monitoring an automatic watering system for my herb
-                      garden that is controlled by an Arduino because I don&apos;t want to have to water it myself.
+                      A website and RESTful API I created for configuring and monitoring an automatic watering system
+                      for my herb garden that is controlled by an Arduino because I don&apos;t want to have to water it
+                      myself.
                     </p>
                     <p>
-                      I created a C++ library to easily activate sensors and actuators connected to an Arduino through
-                      multiple layers of hardware logic components, such as shift registers and multiplexers.
+                      As a part of this project, I created a C++ library to easily activate sensors and actuators
+                      connected to an Arduino through multiple layers of hardware logic components, such as shift
+                      registers and multiplexers.
                     </p>
                     <p>
                       This project is fully tested with unit, integration, and functional tests and deploys to Heroku
@@ -133,13 +135,13 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      A website for visualizing search algorithms DFS, BFS, Dijkstra&apos;s Algorithm, Greedy Best-First
-                      Search, A* Search, and Bidirectional Search on a 2D grid that is customizable with wall and weight
-                      nodes.
+                      A website I created for visualizing the search algorithms DFS, BFS, Dijkstra&apos;s Algorithm,
+                      Greedy Best-First Search, A* Search, and Bidirectional Search on a 2D grid.
                     </p>
                     <p>
-                      Mazes of walls and weights can be generated using the algorithms Randomized DFS, Randomized
-                      Prim&apos;s Algorithm, and Recursive Division.
+                      The grid can be modified with mazes of walls and weights which are generated using the algorithms
+                      Randomized DFS, Randomized Prim&apos;s Algorithm, or Recursive Division. You can also manually add
+                      walls and weights to the grid with the click of your mouse!
                     </p>
                     <p>
                       Although this project is permanently hosted on GitHub Pages, I had used this project to gain
@@ -171,10 +173,10 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      A website for playing Sudoku, Tic Tac Toe, and Snake. Sudoku was implemented using the Sudoku
-                      Solver and Generator Algorithm capable of generating puzzles of 4 different difficulties. The
-                      opponent player in Tic Tac Toe was implemented with as completely random (Easy) Minimax (Medium),
-                      and Minimax with αβ Pruning (Hard).
+                      A website I crearted for playing Sudoku, Tic Tac Toe, and Snake. Sudoku was implemented using the
+                      Sudoku Solver and Generator Algorithm capable of generating puzzles of 4 different difficulties.
+                      The opponent player in Tic Tac Toe was implemented with as completely random (Easy) Minimax
+                      (Medium), and Minimax with αβ Pruning (Hard).
                     </p>
                     <p>
                       This project is fully tested with unit, integration, and functional tests written in Jest and
