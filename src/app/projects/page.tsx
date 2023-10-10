@@ -73,15 +73,17 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      Created a web interface and RESTful API for configuring an automatic watering system that is
-                      controlled by an Arduino. Through automation, this project saves the daily time and effort of
-                      maintaining a garden.
+                      A website and RESTful API for configuring and monitoring an automatic watering system for my herb
+                      garden that is controlled by an Arduino because I don&apos;t want to have to water it myself.
                     </p>
                     <p>
-                      Implemented a C++ library to easily activate sensors and actuators connected to an Arduino through
-                      multiple layers of logic components, such as shift registers and multiplexers.
+                      I created a C++ library to easily activate sensors and actuators connected to an Arduino through
+                      multiple layers of hardware logic components, such as shift registers and multiplexers.
                     </p>
-                    <p>Wrote unit, integration, and functional tests for a CI/CD pipeline that deploys to Heroku.</p>
+                    <p>
+                      This project is fully tested with unit, integration, and functional tests and deploys to Heroku
+                      via a CI/CD pipeline.
+                    </p>
                   </>
                 }
                 links={
@@ -89,7 +91,7 @@ export default function Projects() {
                     <AiFillGithub size="2rem" className="inline-block" />
                   </ProjectCardLink>
                 }
-                technologies={['C++', 'Python', 'JavaScript', 'Arduino']}
+                technologies={['JavaScript', 'Python', 'C++', 'Arduino']}
               />
             </section>
 
@@ -131,16 +133,18 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      Created a web page for visualizing DFS, BFS, Dijkstra&apos;s Algorithm, Greedy Best-First Search,
-                      A* Search, and Bidirectional Search on a 2D grid that is customizable with wall and weight nodes.
+                      A website for visualizing search algorithms DFS, BFS, Dijkstra&apos;s Algorithm, Greedy Best-First
+                      Search, A* Search, and Bidirectional Search on a 2D grid that is customizable with wall and weight
+                      nodes.
                     </p>
                     <p>
-                      Implemented maze generation algorithms Randomized DFS, Randomized Prim&apos;s Algorithm, and
-                      Recursive Division.
+                      Mazes of walls and weights can be generated using the algorithms Randomized DFS, Randomized
+                      Prim&apos;s Algorithm, and Recursive Division.
                     </p>
                     <p>
-                      Created a CI/CD pipeline to automate provisioning and deployment to production and staging
-                      servers.
+                      Although this project is permanently hosted on GitHub Pages, I had used this project to gain
+                      experience with creating a CI/CD pipeline to automate provisioning and deployment to staging and
+                      production servers on Digital Ocean.
                     </p>
                   </>
                 }
@@ -149,19 +153,7 @@ export default function Projects() {
                     <AiFillGithub size="2rem" className="inline-block" />
                   </ProjectCardLink>
                 }
-                technologies={[
-                  'JavaScript',
-                  'HTML5',
-                  'CSS',
-                  'Python',
-                  'Bootstrap',
-                  'Jest',
-                  'Django',
-                  'GitHub Actions',
-                  'Terraform',
-                  'Ansible',
-                  'DigitalOcean',
-                ]}
+                technologies={['JavaScript', 'HTML/CSS', 'Python', 'Jest', 'GitHub Actions', 'Terraform']}
               />
             </section>
 
@@ -179,12 +171,14 @@ export default function Projects() {
                 summary={
                   <>
                     <p>
-                      Implemented Sudoku, Tic Tac Toe, and Snake using Sudoku Solver and Generator Algorithm, as well as
-                      Minimax, and Minimax with αβ Pruning as the opponent player in Tic Tac Toe.
+                      A website for playing Sudoku, Tic Tac Toe, and Snake. Sudoku was implemented using the Sudoku
+                      Solver and Generator Algorithm capable of generating puzzles of 4 different difficulties. The
+                      opponent player in Tic Tac Toe was implemented with as completely random (Easy) Minimax (Medium),
+                      and Minimax with αβ Pruning (Hard).
                     </p>
                     <p>
-                      Wrote unit, integration, and functional tests with Jest, and Selenium for a CI/CD pipeline
-                      deploying to Heroku.
+                      This project is fully tested with unit, integration, and functional tests written in Jest and
+                      Selenium, and is deployed to Heroku using a CI/CD pipeline.
                     </p>
                   </>
                 }
@@ -193,7 +187,7 @@ export default function Projects() {
                     <AiFillGithub size="2rem" className="inline-block" />
                   </ProjectCardLink>
                 }
-                technologies={['JavaScript', 'Python', 'Node.js', 'Express.js', 'Jest', 'Selenium', 'CSS', 'Bootstrap']}
+                technologies={['JavaScript', 'Python', 'Node.js', 'Jest', 'Selenium']}
               />
             </section>
           </main>
