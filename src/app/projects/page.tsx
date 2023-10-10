@@ -72,6 +72,8 @@ export default function Projects() {
                 images={
                   <>
                     <ProjectCardImage src="/autogarden_login.gif" alt="Gif of AutoGarden login action" />
+                    <ProjectCardImage src="/garden_create.gif" alt="Gif of creating a Garden" />
+                    <ProjectCardImage src="/watering_station.gif" alt="Gif of Watering Station detail page" />
                   </>
                 }
                 summary={
