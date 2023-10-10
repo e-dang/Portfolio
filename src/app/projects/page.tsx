@@ -69,7 +69,11 @@ export default function Projects() {
             <section className="scroll-mt-48" id={SectionIds.Autogarden} data-section>
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Autogarden">Autogarden</ProjectCardHeader>}
-                images={<ProjectCardImage src="/pathfinding.png" alt="Picture of the Path Finding Algorithm Website" />}
+                images={
+                  <>
+                    <ProjectCardImage src="/autogarden_login.gif" alt="Gif of AutoGarden login action" />
+                  </>
+                }
                 summary={
                   <>
                     <p>
