@@ -22,7 +22,31 @@ export default function Experience() {
                   href="https://www.fulgentgenetics.com/"
                 />
               }
-              summary="At Fulgent Genetics, I began my employment by integrating DevOps practices into our team's development cycle. In my second year, while continuing to manage the DevOps infrastructure I setup, I began working on the frontend and backend for our new service, Fulgent Oncology. Now as a Senior Software Engineer, I am continuing to focus on building out features for Fulgent Oncology and optimizing our internal tooling."
+              summary={
+                <p>
+                  At Fulgent Genetics, I began my employment by integrating DevOps practices into our team&apos;s
+                  development cycle. In my second year, while continuing to manage the DevOps infrastructure I setup, I
+                  began working on the frontend and backend for our new service,{' '}
+                  <a
+                    href="https://fulgentoncology.com/"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fulgent Oncology
+                  </a>
+                  . Now as a Senior Software Engineer, I am continuing to focus on building out features for{' '}
+                  <a
+                    href="https://fulgentoncology.com/"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fulgent Oncology
+                  </a>{' '}
+                  and optimizing our internal tooling.
+                </p>
+              }
               achievements={[
                 'Developed and deployed the user interface and significantly contributed to the backend development of the Fulgent Oncology Provider Portal, facilitating healthcare providers in managing patient information, orders, and accessing test results and requisition forms.',
 
