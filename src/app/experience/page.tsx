@@ -58,7 +58,7 @@ export default function Experience() {
 
                 "Automated the deployment of Fulgent's services using FluxCD on staging and production clusters, decreasing deployment times by 92%.",
               ]}
-              technologies={['Typescript', 'Node.JS', 'Vue.JS', 'Docker', 'Kubernetes']}
+              technologies={['TypeScript', 'Node.js', 'Vue.js', 'Express.js', 'Docker', 'Kubernetes']}
             />
           </TimelineSection>
 
