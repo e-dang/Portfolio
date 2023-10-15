@@ -167,7 +167,7 @@ export default function Projects() {
 
             <section className="scroll-mt-48" id={SectionIds.WebGames} data-section>
               <ProjectCard
-                header={<ProjectCardHeader href="https://github.com/e-dang/Web-Games">Web Games</ProjectCardHeader>}
+                header={<ProjectCardHeader href="https://e-dang.github.io/Web-Games/">Web Games</ProjectCardHeader>}
                 images={
                   <>
                     <ProjectCardImage src="/snake.gif" alt="A game of Snake" />
