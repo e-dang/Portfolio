@@ -12,7 +12,7 @@ export default function Home() {
 
             <div className="flex flex-row justify-center gap-4 pt-16">
               <Link
-                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
+                className="group rounded-md border-2 border-violet-500 p-4 text-xl hover:bg-violet-500"
                 href="/experience"
               >
                 Experience
@@ -20,7 +20,7 @@ export default function Home() {
               </Link>
 
               <Link
-                className="group rounded-lg border-4 border-violet-500 p-4 text-xl hover:bg-violet-500"
+                className="group rounded-md border-2 border-violet-500 p-4 text-xl hover:bg-violet-500"
                 href="/projects"
               >
                 Projects
