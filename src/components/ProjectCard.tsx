@@ -69,10 +69,7 @@ export interface ProjectCardImageProps {
 
 export function ProjectCardImage({src, alt}: ProjectCardImageProps) {
   return (
-    <div
-      className="relative after:absolute after:inset-0 after:bg-violet-300/40
-after:content-['']"
-    >
+    <div className="relative after:absolute after:inset-0 after:bg-violet-300/40 after:content-['']">
       <Image src={src} alt={alt} width={200} height={48} />
     </div>
   );
