@@ -1,6 +1,7 @@
 import {ExperienceCard, ExperienceCardHeader} from '@/components/ExperienceCard';
 import {Navbar} from '@/components/Navbar';
 import {TimelineSection} from '@/components/TimelineSection';
+import {FiExternalLink} from 'react-icons/fi';
 
 export default function Experience() {
   return (
@@ -41,7 +42,33 @@ export default function Experience() {
               header={
                 <ExperienceCardHeader currentTitle="Software Engineer" company="UCLA" href="https://www.ucla.edu/" />
               }
-              summary="As a software engineer working for Dr. Harran and Dr. Houk's chemistry labs at UCLA, I created two Python programs, CPMG and ConfBuster++, for generating and screening large virtual libraries of macrocyclic drug candidates based on the chemistry developed in their labs. Using UCLA's Hoffman2 cluster, I was able to demonstrate these programs could scale to billions of compounds. Our findings were published in the Proceedings of the National Academy of Sciences."
+              summary={
+                <p>
+                  As a software engineer working for{' '}
+                  <a
+                    href="http://www.chem.ucla.edu/harran/"
+                    className="relative text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Dr. Harran
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://www.chem.ucla.edu/houk/"
+                    className="relative text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Dr. Houk&apos;s
+                  </a>{' '}
+                  chemistry labs at UCLA, I created two Python programs, CPMG and ConfBuster++, for generating and
+                  screening large virtual libraries of macrocyclic drug candidates based on the chemistry developed in
+                  their labs. Using UCLA&apos;s Hoffman2 cluster, I was able to demonstrate these programs could scale
+                  to billions of compounds. Our findings were published in the Proceedings of the National Academy of
+                  Sciences.
+                </p>
+              }
               achievements={[
                 'Created novel software (CPMG) for generating a giga-scale virtual library consisting of 2D structure macrocycle drug candidates for high throughput screening.',
 

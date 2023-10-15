@@ -10,7 +10,7 @@ interface ExperienceCardProps extends React.ComponentProps<'div'> {
 
 export const ExperienceCard: React.FC<ExperienceCardProps> = ({header, summary, achievements, technologies}) => {
   return (
-    <div className="group/experience relative flex flex-col gap-8 rounded bg-neutral-800/20  p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
+    <div className="relative flex flex-col gap-8 rounded bg-neutral-800/20 p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
       {header}
 
       <div className="text-md text-slate-400">{summary}</div>
@@ -49,10 +49,10 @@ export interface ExperienceCardHeaderProps {
 export function ExperienceCardHeader({currentTitle, previousTitles, company, href}: ExperienceCardHeaderProps) {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row justify-between group-hover/experience:text-violet-500">
-        <h3 className="text-3xl font-bold tracking-tight">{currentTitle}</h3>
+      <div className="group/experience flex flex-row justify-between">
+        <h3 className="text-3xl font-bold tracking-tight group-hover/experience:text-violet-500">{currentTitle}</h3>
         <a
-          className="self-end text-lg font-bold before:absolute before:inset-0 before:z-10 before:content-['']"
+          className="self-end text-lg font-bold before:absolute before:inset-0 before:z-0 before:content-[''] group-hover/experience:text-violet-500"
           href={href}
           target="_blank"
           rel="noopener noreferrer"
