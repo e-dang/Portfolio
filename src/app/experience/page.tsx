@@ -1,7 +1,8 @@
 import {ExperienceCard, ExperienceCardHeader} from '@/components/ExperienceCard';
 import {Navbar} from '@/components/Navbar';
 import {TimelineSection} from '@/components/TimelineSection';
-import {FiExternalLink} from 'react-icons/fi';
+import {AiFillGithub, AiOutlineFileText} from 'react-icons/ai';
+import {SiAnaconda} from 'react-icons/si';
 
 export default function Experience() {
   return (
@@ -47,7 +48,7 @@ export default function Experience() {
                   As a software engineer working for{' '}
                   <a
                     href="http://www.chem.ucla.edu/harran/"
-                    className="relative text-white hover:text-violet-500"
+                    className="relative z-20 text-white hover:text-violet-500"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -56,25 +57,103 @@ export default function Experience() {
                   and{' '}
                   <a
                     href="https://www.chem.ucla.edu/houk/"
-                    className="relative text-white hover:text-violet-500"
+                    className="relative z-20 text-white hover:text-violet-500"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Dr. Houk&apos;s
                   </a>{' '}
-                  chemistry labs at UCLA, I created two Python programs, CPMG and ConfBuster++, for generating and
-                  screening large virtual libraries of macrocyclic drug candidates based on the chemistry developed in
-                  their labs. Using UCLA&apos;s Hoffman2 cluster, I was able to demonstrate these programs could scale
-                  to billions of compounds. Our findings were published in the Proceedings of the National Academy of
-                  Sciences.
+                  chemistry labs at UCLA, I created two Python programs,{' '}
+                  <a
+                    href="https://github.com/e-dang/Composite-Peptide-Macrocycle-Generator"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    CPMG
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://github.com/e-dang/ConfBusterPlusPlus"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ConfBuster++
+                  </a>
+                  , for generating and screening large virtual libraries of macrocyclic drug candidates based on the
+                  chemistry developed in their labs. Using{' '}
+                  <a
+                    href="https://oarc.ucla.edu/advanced-computing-resources"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    UCLA&apos;s Hoffman2 cluster
+                  </a>
+                  , I was able to demonstrate these programs could scale to billions of compounds.{' '}
+                  <a
+                    href="https://www.pnas.org/doi/abs/10.1073/pnas.2007304117?doi=10.1073/pnas.2007304117"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Our findings
+                  </a>{' '}
+                  were published in the{' '}
+                  <a
+                    href="https://www.pnas.org/"
+                    className="relative z-20 text-white hover:text-violet-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Proceedings of the National Academy of Sciences
+                  </a>
+                  .
                 </p>
+              }
+              links={
+                <ul className="group/experience_links z-20 flex flex-row flex-wrap gap-6">
+                  <a
+                    href="https://github.com/e-dang/Composite-Peptide-Macrocycle-Generator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                  >
+                    <AiFillGithub className="h-6 w-6" /> CPMG
+                  </a>
+                  <a
+                    href="https://github.com/e-dang/ConfBusterPlusPlus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                  >
+                    <AiFillGithub className="h-6 w-6" /> ConfBuster++
+                  </a>
+                  <a
+                    href="https://anaconda.org/e-dang/confbusterplusplus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                  >
+                    <SiAnaconda className="h-5 w-5" /> <span>Conda Package</span>
+                  </a>
+                  <a
+                    href="https://www.pnas.org/doi/abs/10.1073/pnas.2007304117?doi=10.1073/pnas.2007304117"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                  >
+                    <AiOutlineFileText className="h-5 w-5" /> Publication
+                  </a>
+                </ul>
               }
               achievements={[
                 'Created novel software (CPMG) for generating a giga-scale virtual library consisting of 2D structure macrocycle drug candidates for high throughput screening.',
 
                 'Improved software for generating 3D conformers for macrocyclic compounds by decreasing runtimes by 98% using the framework RDKit to perform operations on the molecular graphs (ConfBuster++).',
 
-                'Together, CPMG and ConfBuster++ resulted in an academic publication as well as a Python package available on Anaconda cloud (https://anaconda.org/e-dang/confbusterplusplus).',
+                'Together, CPMG and ConfBuster++ resulted in an academic publication as well as a Python package available on Anaconda cloud.',
               ]}
               technologies={['Python', 'RDKit']}
             />
