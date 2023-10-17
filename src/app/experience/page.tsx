@@ -90,16 +90,8 @@ export default function Experience() {
                   >
                     UCLA&apos;s Hoffman2 cluster
                   </a>
-                  , I was able to demonstrate these programs could scale to billions of compounds.{' '}
-                  <a
-                    href="https://www.pnas.org/doi/abs/10.1073/pnas.2007304117?doi=10.1073/pnas.2007304117"
-                    className="relative z-20 text-white hover:text-violet-500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Our findings
-                  </a>{' '}
-                  were published in the{' '}
+                  , I was able to demonstrate these programs could scale to billions of compounds. Our findings were
+                  published in the{' '}
                   <a
                     href="https://www.pnas.org/"
                     className="relative z-20 text-white hover:text-violet-500"
