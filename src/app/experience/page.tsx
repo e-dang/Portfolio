@@ -35,16 +35,8 @@ export default function Experience() {
                   >
                     Fulgent Oncology
                   </a>
-                  . Now as a Senior Software Engineer, I am continuing to focus on building out features for{' '}
-                  <a
-                    href="https://fulgentoncology.com/"
-                    className="relative z-20 text-white hover:text-violet-500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Fulgent Oncology
-                  </a>{' '}
-                  and optimizing our internal tooling.
+                  . Now as a Senior Software Engineer, I am continuing to focus on building out features for Fulgent
+                  Oncology and optimizing our internal tooling.
                 </p>
               }
               achievements={[
@@ -87,26 +79,9 @@ export default function Experience() {
                   >
                     Dr. Houk&apos;s
                   </a>{' '}
-                  chemistry labs at UCLA, I created two Python programs,{' '}
-                  <a
-                    href="https://github.com/e-dang/Composite-Peptide-Macrocycle-Generator"
-                    className="relative z-20 text-white hover:text-violet-500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    CPMG
-                  </a>{' '}
-                  and{' '}
-                  <a
-                    href="https://github.com/e-dang/ConfBusterPlusPlus"
-                    className="relative z-20 text-white hover:text-violet-500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ConfBuster++
-                  </a>
-                  , for generating and screening large virtual libraries of macrocyclic drug candidates based on the
-                  chemistry developed in their labs. Using{' '}
+                  chemistry labs at UCLA, I created two Python programs, CPMG and ConfBuster++, for generating and
+                  screening large virtual libraries of macrocyclic drug candidates based on the chemistry developed in
+                  their labs. Using{' '}
                   <a
                     href="https://oarc.ucla.edu/advanced-computing-resources"
                     className="relative z-20 text-white hover:text-violet-500"
@@ -142,33 +117,33 @@ export default function Experience() {
                     href="https://github.com/e-dang/Composite-Peptide-Macrocycle-Generator"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                    className="inline-flex items-center text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
                   >
-                    <AiFillGithub className="h-6 w-6" /> CPMG
+                    <AiFillGithub size="2rem" />
                   </a>
                   <a
                     href="https://github.com/e-dang/ConfBusterPlusPlus"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                    className="inline-flex items-center text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
                   >
-                    <AiFillGithub className="h-6 w-6" /> ConfBuster++
+                    <AiFillGithub size="2rem" />
                   </a>
                   <a
                     href="https://anaconda.org/e-dang/confbusterplusplus"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                    className="inline-flex items-center text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
                   >
-                    <SiAnaconda className="h-5 w-5" /> <span>Conda Package</span>
+                    <SiAnaconda size="1.75rem" />
                   </a>
                   <a
                     href="https://www.pnas.org/doi/abs/10.1073/pnas.2007304117?doi=10.1073/pnas.2007304117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-base font-medium text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
+                    className="inline-flex items-center text-slate-400 transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover/experience_links:text-gray-500/50"
                   >
-                    <AiOutlineFileText className="h-5 w-5" /> Publication
+                    <AiOutlineFileText size="1.75rem" />
                   </a>
                 </ul>
               }
