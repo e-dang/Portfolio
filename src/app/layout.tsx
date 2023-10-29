@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className="scroll-smooth bg-[url('/background.svg')] bg-fixed text-white ">
+    <html lang="en" className="scroll-smooth bg-[url('/background.svg')] bg-fixed text-white">
       <body
-        className={`${martian.className} h-screen w-screen overflow-y-auto overflow-x-hidden selection:bg-violet-500 selection:text-white`}
+        className={`${martian.className} overflow-y-auto overflow-x-hidden selection:bg-violet-500 selection:text-white`}
       >
         <Cursor />
         {children}
