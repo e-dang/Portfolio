@@ -2,6 +2,7 @@ import {Badge} from './Badge';
 import {FiExternalLink} from 'react-icons/fi';
 import {ReactNode} from 'react';
 import Image from 'next/image';
+import {Card} from './Card';
 
 export interface ProjectCardProps extends React.ComponentProps<'div'> {
   header: ReactNode;
@@ -13,25 +14,27 @@ export interface ProjectCardProps extends React.ComponentProps<'div'> {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({header, images, summary, links, technologies}) => {
   return (
-    <div className="relative grid grid-cols-8 gap-8 rounded bg-neutral-800/20 p-10 shadow-[inset_1px_1px_0_0_rgba(148,163,184,0.1)] backdrop-blur-lg hover:bg-neutral-800/80">
-      <div className="col-span-2 flex flex-col gap-8">{images}</div>
+    <Card>
+      <div className="relative grid grid-cols-8 gap-8">
+        <div className="col-span-2 flex flex-col gap-8">{images}</div>
 
-      <div className="col-span-6 flex flex-col gap-8">
-        {header}
+        <div className="col-span-6 flex flex-col gap-8">
+          {header}
 
-        <div className="flex flex-col gap-4 text-slate-400">{summary}</div>
+          <div className="flex flex-col gap-4 text-slate-400">{summary}</div>
 
-        <div className="flex flex-row gap-4">{links}</div>
+          <div className="flex flex-row gap-4">{links}</div>
 
-        <ul className="flex flex-row flex-wrap gap-4">
-          {technologies.map((tech) => (
-            <li key={tech}>
-              <Badge>{tech}</Badge>
-            </li>
-          ))}
-        </ul>
+          <ul className="flex flex-row flex-wrap gap-4">
+            {technologies.map((tech) => (
+              <li key={tech}>
+                <Badge>{tech}</Badge>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
+    </Card>
   );
 };
 
