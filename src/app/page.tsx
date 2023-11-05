@@ -6,8 +6,10 @@ export default function Home() {
     <main className="flex h-screen w-full flex-col items-center justify-center text-center">
       <div className="blur-mask relative before:absolute before:-inset-x-0 before:-inset-y-48 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-[''] lg:before:-inset-x-60 lg:before:-inset-y-60">
         <div className="flex animate-fade-in flex-col">
-          <h1 className="text-4xl tracking-tighter lg:text-7xl">Hello, I&apos;m Eric Dang</h1>
-          <h3 className="pt-6 text-base lg:pt-12 lg:text-2xl">Senior Software Engineer and Full-Stack Developer</h3>
+          <h1 className="text-5xl tracking-tighter lg:text-7xl">
+            <span className="hidden sm:inline-block">Hello, I&apos;m</span> Eric Dang
+          </h1>
+          <h2 className="pt-5 text-base lg:pt-8 lg:text-2xl">Senior Software Engineer and Full-Stack Developer</h2>
 
           <div className="flex flex-row justify-center gap-4 pt-10 lg:pt-16">
             <Link
