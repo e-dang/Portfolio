@@ -27,3 +27,12 @@ html {
   scrollbar-color: theme('colors.violet.500') theme('colors.neutral.900');
   scrollbar-width: thin;
 }
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
