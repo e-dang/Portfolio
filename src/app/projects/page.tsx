@@ -43,9 +43,9 @@ export default function Projects() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl px-6 pt-48 md:px-12 lg:px-24">
+      <div className="mx-auto max-w-screen-xl px-12 pt-24 lg:px-24 lg:pt-48">
         <div className="flex justify-between gap-4">
-          <aside className="w-1/3">
+          <aside className="hidden lg:block lg:w-1/3">
             <ul className="blur-mask sticky top-48 before:absolute before:-bottom-10 before:-left-20 before:-top-10 before:right-0 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
               <li className="py-2">
                 <SectionLink href="#Autogarden" isActive={activeSection === SectionIds.Autogarden}>
@@ -65,7 +65,7 @@ export default function Projects() {
             </ul>
           </aside>
 
-          <main className="flex w-2/3 flex-col gap-24 pb-80">
+          <main className="flex flex-col gap-12 pb-24 lg:w-2/3 lg:gap-24 lg:pb-80">
             <section className="scroll-mt-48" id={SectionIds.Autogarden} data-section>
               <ProjectCard
                 header={<ProjectCardHeader href="https://github.com/e-dang/Autogarden">Autogarden</ProjectCardHeader>}
