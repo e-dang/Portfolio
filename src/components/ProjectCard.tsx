@@ -46,12 +46,9 @@ export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, ch
       rel="noopener noreferrer"
       className="group/link before:absolute before:inset-0 before:z-0 before:content-['']"
     >
-      <h3 className="text-4xl leading-tight group-hover/link:text-violet-500">
-        {children}{' '}
-        <FiExternalLink
-          size="1.5rem"
-          className="inline align-middle transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 "
-        />
+      <h3 className="text-xl leading-tight group-hover/link:text-violet-500 sm:text-4xl">
+        {children}
+        <FiExternalLink className="ml-3 inline align-baseline text-sm transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 sm:text-xl " />
       </h3>
     </a>
   );
