@@ -53,7 +53,7 @@ export function ExperienceCardHeader({currentTitle, previousTitles, company, hre
       <div className="group/experience flex flex-row justify-between">
         <h3 className="text-3xl font-bold tracking-tight group-hover/experience:text-violet-500">{currentTitle}</h3>
         <a
-          className="self-end text-lg font-bold before:absolute before:inset-0 before:z-10 before:content-[''] group-hover/experience:text-violet-500"
+          className="self-end text-lg font-bold before:absolute before:inset-0 before:z-10 before:hidden before:content-[''] group-hover/experience:text-violet-500 before:sm:block"
           href={href}
           target="_blank"
           rel="noopener noreferrer"
