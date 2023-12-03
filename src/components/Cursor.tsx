@@ -9,7 +9,6 @@ export function Cursor() {
       return;
     }
 
-    cursorRef.current.style.display = 'block';
     cursorRef.current.style.left = `${event.clientX}px`;
     cursorRef.current.style.top = `${event.clientY}px`;
   }, []);
@@ -22,7 +21,7 @@ export function Cursor() {
   return (
     <div
       ref={cursorRef}
-      className="pointer-events-none fixed z-50 hidden h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-solid border-violet-500/70 duration-100 ease-out after:pointer-events-none after:absolute after:-inset-1   after:animate-[ping_5s_cubic-bezier(0,0,0.2,1)_infinite] after:rounded-full after:border-4 after:border-violet-500/50 after:content-['']"
+      className="pointer-events-none hidden sm:fixed sm:z-50 sm:block sm:h-6 sm:w-6 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-full sm:border-4 sm:border-solid sm:border-violet-500/70 sm:duration-100 sm:ease-out sm:after:pointer-events-none sm:after:absolute sm:after:-inset-1 sm:after:animate-[ping_5s_cubic-bezier(0,0,0.2,1)_infinite] sm:after:rounded-full sm:after:border-4 sm:after:border-violet-500/50 sm:after:content-['']"
     />
   );
 }
