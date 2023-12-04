@@ -39,6 +39,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({header, images, summary
 };
 
 export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, children}) => {
+  const words = (children as string).split(' ');
   return (
     <a
       href={href}
@@ -47,8 +48,11 @@ export const ProjectCardHeader: React.FC<React.ComponentProps<'a'>> = ({href, ch
       className="group/link before:absolute before:inset-0 before:z-0 before:hidden before:content-[''] before:sm:block"
     >
       <h3 className="text-lg leading-tight group-hover/link:text-violet-500">
-        {children}
-        <FiExternalLink className="ml-3 inline-block h-4 w-4 translate-y-[-1px] transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1" />
+        {words.slice(0, words.length - 1).join(' ')}{' '}
+        <span className="inline-flex items-baseline">
+          {words[words.length - 1]}
+          <FiExternalLink className="ml-3 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1" />
+        </span>
       </h3>
     </a>
   );

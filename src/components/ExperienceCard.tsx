@@ -1,6 +1,7 @@
 import {FiExternalLink} from 'react-icons/fi';
 import {Badge} from './Badge';
 import {Card} from './Card';
+import {spawn} from 'child_process';
 
 interface ExperienceCardProps extends React.ComponentProps<'div'> {
   header: React.ReactNode;
@@ -51,18 +52,22 @@ export interface ExperienceCardHeaderProps {
 }
 
 export function ExperienceCardHeader({currentTitle, previousTitles, company, href}: ExperienceCardHeaderProps) {
+  const words = company.split(' ');
   return (
     <div className="flex flex-col text-lg">
       <div className="group/experience flex flex-row justify-between">
         <h3 className="font-bold tracking-tight group-hover/experience:text-violet-500">{currentTitle}</h3>
         <a
-          className="self-end font-bold before:absolute before:inset-0 before:z-10 before:hidden before:content-[''] group-hover/experience:text-violet-500 before:sm:block"
+          className="font-bold before:absolute before:inset-0 before:z-10 before:hidden before:content-[''] group-hover/experience:text-violet-500 before:sm:block"
           href={href}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {company}
-          <FiExternalLink className="ml-3 inline-block h-4 w-4 transition-transform group-hover/experience:-translate-y-1 group-hover/experience:translate-x-1 group-hover/experience:text-violet-500" />
+          {words.slice(0, words.length - 1).join(' ')}{' '}
+          <span className="inline-flex items-baseline">
+            {words[words.length - 1]}
+            <FiExternalLink className="ml-3 h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/experience:-translate-y-1 group-hover/experience:translate-x-1 group-hover/experience:text-violet-500" />
+          </span>
         </a>
       </div>
 
