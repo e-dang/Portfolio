@@ -9,6 +9,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 5s linear forwards infinite;
+  -moz-animation: draw 5s linear forwards infinite;
   animation: draw 5s linear forwards infinite;
   animation-delay: 1s
 }
@@ -22,6 +24,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 5s linear reverse infinite;
+  -moz-animation: draw 5s linear reverse infinite;
   animation: draw 5s linear reverse infinite;
 }
 
@@ -34,6 +38,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 5s linear forwards infinite;
+  -moz-animation: draw 5s linear forwards infinite;
   animation: draw 5s linear forwards infinite;
 }
 
@@ -46,6 +52,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10s linear forwards infinite;
+  -moz-animation: draw 10s linear forwards infinite;
   animation: draw 10s linear forwards infinite;
   animation-delay: 0.6s
 }
@@ -59,6 +67,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10s linear forwards infinite;
+  -moz-animation: draw 10s linear forwards infinite;
   animation: draw 10s linear forwards infinite;
 }
 
@@ -71,6 +81,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 6s linear reverse infinite;
+  -moz-animation: draw 6s linear reverse infinite;
   animation: draw 6s linear reverse infinite;
 }
 
@@ -83,6 +95,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 8s linear forwards infinite;
+  -moz-animation: draw 8s linear forwards infinite;
   animation: draw 8s linear forwards infinite;
   animation-delay: 1.5s
 }
@@ -96,6 +110,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 11s linear forwards infinite;
+  -moz-animation: draw 11s linear forwards infinite;
   animation: draw 11s linear forwards infinite;
 }
 
@@ -108,6 +124,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 7s linear forwards infinite;
+  -moz-animation: draw 7s linear forwards infinite;
   animation: draw 7s linear forwards infinite;
   animation-delay: 1.1s
 }
@@ -121,6 +139,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10s linear forwards infinite;
+  -moz-animation: draw 10s linear forwards infinite;
   animation: draw 10s linear forwards infinite;
   animation-delay: 0.2s
 }
@@ -134,6 +154,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10s linear forwards infinite;
+  -moz-animation: draw 10s linear forwards infinite;
   animation: draw 10s linear forwards infinite;
   animation-delay: 0.4s
 }
@@ -147,6 +169,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 6s linear reverse infinite;
+  -moz-animation: draw 6s linear reverse infinite;
   animation: draw 6s linear reverse infinite;
   animation-delay: 0.3s
 }
@@ -160,6 +184,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 6s linear forwards infinite;
+  -moz-animation: draw 6s linear forwards infinite;
   animation: draw 6s linear forwards infinite;
   animation-delay: 0.14s
 }
@@ -173,6 +199,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 7s linear reverse infinite;
+  -moz-animation: draw 7s linear reverse infinite;
   animation: draw 7s linear reverse infinite;
   animation-delay: 0.34s
 }
@@ -186,6 +214,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 12s linear reverse infinite;
+  -moz-animation: draw 12s linear reverse infinite;
   animation: draw 12s linear reverse infinite;
   animation-delay: 0.82s
 }
@@ -199,6 +229,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 8s linear forwards infinite;
+  -moz-animation: draw 8s linear forwards infinite;
   animation: draw 8s linear forwards infinite;
   animation-delay: 0.5s
 }
@@ -212,6 +244,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 7s linear forwards infinite;
+  -moz-animation: draw 7s linear forwards infinite;
   animation: draw 7s linear forwards infinite;
   animation-delay: 0.44s
 }
@@ -225,6 +259,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 12s linear reverse infinite;
+  -moz-animation: draw 12s linear reverse infinite;
   animation: draw 12s linear reverse infinite;
   animation-delay: 1.2s
 }
@@ -238,6 +274,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 4s linear reverse infinite;
+  -moz-animation: draw 4s linear reverse infinite;
   animation: draw 4s linear reverse infinite;
   animation-delay: 1.4s
 }
@@ -251,6 +289,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 7.5s linear reverse infinite;
+  -moz-animation: draw 7.5s linear reverse infinite;
   animation: draw 7.5s linear reverse infinite;
   animation-delay: .65s
 }
@@ -264,6 +304,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 6s linear forwards infinite;
+  -moz-animation: draw 6s linear forwards infinite;
   animation: draw 6s linear forwards infinite;
   animation-delay: 0s
 }
@@ -277,6 +319,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 8s linear forwards infinite;
+  -moz-animation: draw 8s linear forwards infinite;
   animation: draw 8s linear forwards infinite;
   animation-delay: 0s
 }
@@ -290,6 +334,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 12s linear forwards infinite;
+  -moz-animation: draw 12s linear forwards infinite;
   animation: draw 12s linear forwards infinite;
   animation-delay: 1.32s
 }
@@ -303,6 +349,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10.1s linear reverse infinite;
+  -moz-animation: draw 10.1s linear reverse infinite;
   animation: draw 10.1s linear reverse infinite;
   animation-delay: 0.72s
 }
@@ -316,6 +364,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 11.4s linear forwards infinite;
+  -moz-animation: draw 11.4s linear forwards infinite;
   animation: draw 11.4s linear forwards infinite;
   animation-delay: 0.61s
 }
@@ -329,6 +379,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10.5s linear forwards infinite;
+  -moz-animation: draw 10.5s linear forwards infinite;
   animation: draw 10.5s linear forwards infinite;
   animation-delay: 0.28s
 }
@@ -342,6 +394,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 9.5s linear reverse infinite;
+  -moz-animation: draw 9.5s linear reverse infinite;
   animation: draw 9.5s linear reverse infinite;
   animation-delay: 0.18s
 }
@@ -355,6 +409,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 9.8s linear forwards infinite;
+  -moz-animation: draw 9.8s linear forwards infinite;
   animation: draw 9.8s linear forwards infinite;
   animation-delay: 0.15s
 }
@@ -368,6 +424,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 11.6s linear forwards infinite;
+  -moz-animation: draw 11.6s linear forwards infinite;
   animation: draw 11.6s linear forwards infinite;
   animation-delay: 0.24s
 }
@@ -381,6 +439,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 9.1s linear forwards infinite;
+  -moz-animation: draw 9.1s linear forwards infinite;
   animation: draw 9.1s linear forwards infinite;
   animation-delay: 0.55s
 }
@@ -394,6 +454,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 9.1s linear reverse infinite;
+  -moz-animation: draw 9.1s linear reverse infinite;
   animation: draw 9.1s linear reverse infinite;
 }
 
@@ -406,6 +468,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 10s linear forwards infinite;
+  -moz-animation: draw 10s linear forwards infinite;
   animation: draw 10s linear forwards infinite;
   animation-delay: 0.72s
 }
@@ -419,6 +483,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 12s linear reverse infinite;
+  -moz-animation: draw 12s linear reverse infinite;
   animation: draw 12s linear reverse infinite;
   animation-delay: 0.1s
 }
@@ -432,6 +498,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 13s linear reverse infinite;
+  -moz-animation: draw 13s linear reverse infinite;
   animation: draw 13s linear reverse infinite;
   animation-delay: 0.12s
 }
@@ -445,6 +513,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 11.6s linear forwards infinite;
+  -moz-animation: draw 11.6s linear forwards infinite;
   animation: draw 11.6s linear forwards infinite;
   animation-delay: 0.6s
 }
@@ -458,6 +528,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 12.6s linear reverse infinite;
+  -moz-animation: draw 12.6s linear reverse infinite;
   animation: draw 12.6s linear reverse infinite;
   animation-delay: 0.9s
 }
@@ -471,6 +543,8 @@
   stroke-opacity: 1;
   stroke-dasharray: 50 100%;
   stroke-dashoffset: calc(100% + 100px);
+  -webkit-animation: draw 11.3s linear forwards infinite;
+  -moz-animation: draw 11.3s linear forwards infinite;
   animation: draw 11.3s linear forwards infinite;
   animation-delay: 0.7s
 }
