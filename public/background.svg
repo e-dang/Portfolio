@@ -475,12 +475,17 @@
   animation-delay: 0.7s
 }
 
+@-moz-keyframes draw {
+  0% {}
+  100% {stroke-dashoffset: 50;}
+}
+@-webkit-keyframes draw {
+  0% {}
+  100% {stroke-dashoffset: 50;}
+}
 @keyframes draw {
-  0% {
-  }
-  100% {
-    stroke-dashoffset: 50;
-  }
+  0% {}
+  100% {stroke-dashoffset: 50;}
 }
 </style>
 
