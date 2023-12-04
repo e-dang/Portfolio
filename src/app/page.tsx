@@ -4,7 +4,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai';
 export default function Home() {
   return (
     <main className="flex h-screen w-full flex-col items-center justify-center text-center">
-      <div className="blur-mask relative before:absolute before:-inset-x-10 before:-inset-y-32 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-[''] sm:before:-inset-32 md:before:-inset-40 lg:before:-inset-60">
+      <div className="blur-mask relative before:absolute before:-inset-y-32 before:inset-x-0 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-[''] sm:before:-inset-32 md:before:-inset-40 lg:before:-inset-60">
         <div className="flex animate-fade-in flex-col">
           <h1 className="text-5xl tracking-tighter lg:text-7xl">
             <span className="hidden sm:inline-block">Hello, I&apos;m</span> Eric Dang
