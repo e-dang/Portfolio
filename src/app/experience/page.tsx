@@ -9,7 +9,7 @@ export default function Experience() {
     <>
       <Navbar />
       <main className="mx-auto max-w-screen-xl px-4 pt-16 sm:px-12 sm:pt-24 lg:pt-48">
-        <div className="pb-48 lg:grid lg:grid-cols-[10rem_5rem_5rem_1fr] lg:grid-rows-[auto_auto] lg:gap-x-2">
+        <div className="lg:grid lg:grid-cols-[10rem_5rem_5rem_1fr] lg:grid-rows-[auto_auto] lg:gap-x-2 lg:pb-48">
           <div className="hidden before:absolute before:-bottom-20 before:top-[3.75rem] before:w-[0.2rem] before:bg-violet-500 before:content-[''] after:absolute after:-bottom-24 after:-left-[0.41rem] after:h-4 after:w-4 after:rounded-full after:border-[0.2rem] after:border-violet-500 after:content-[''] lg:relative lg:col-start-3 lg:row-span-full lg:block" />
 
           <TimelineSection idx={1} dateRange="May 2021 - Current">
