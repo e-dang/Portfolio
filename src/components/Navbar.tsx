@@ -16,7 +16,7 @@ export const Navbar = () => {
       <nav className="fixed top-0 z-10 w-full bg-neutral-900 p-4">
         <div className="flex items-center justify-between">
           <div className="flex flex-row gap-12">
-            <Link href="/" className="whitespace-nowrap hover:text-violet-500">
+            <Link href="/" className="whitespace-nowrap text-lg font-medium hover:text-violet-500">
               Eric Dang
             </Link>
 
@@ -27,7 +27,7 @@ export const Navbar = () => {
                 rel="noopener noreferrer"
                 className="transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover:text-gray-500/50"
               >
-                <AiFillGithub className="inline-block text-3xl" />
+                <AiFillGithub className="inline-block translate-y-px text-2xl" />
               </a>
 
               <a
@@ -36,7 +36,7 @@ export const Navbar = () => {
                 rel="noopener noreferrer"
                 className="transition-all hover:-translate-y-1 hover:!text-violet-500 group-hover:text-gray-500/50"
               >
-                <AiFillLinkedin className="inline-block text-3xl" />
+                <AiFillLinkedin className="inline-block translate-y-px text-2xl" />
               </a>
             </div>
           </div>
@@ -102,11 +102,15 @@ export const Navbar = () => {
 
           <ul className="hidden gap-4 sm:flex">
             <li>
-              <InternalNavLink href="/experience">Experience</InternalNavLink>
+              <InternalNavLink href="/experience">
+                <span className="text-sm">Experience</span>
+              </InternalNavLink>
             </li>
 
             <li>
-              <InternalNavLink href="/projects">Projects</InternalNavLink>
+              <InternalNavLink href="/projects">
+                <span className="text-sm">Projects</span>
+              </InternalNavLink>
             </li>
           </ul>
         </div>
