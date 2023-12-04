@@ -20,6 +20,7 @@ export default function Experience() {
                   previousTitles={['Software Engineer']}
                   company="Fulgent Genetics"
                   href="https://www.fulgentgenetics.com/"
+                  dateRange="May 2021 - Current"
                 />
               }
               summary={
@@ -57,7 +58,12 @@ export default function Experience() {
           <TimelineSection idx={2} dateRange="February 2019 - June 2020">
             <ExperienceCard
               header={
-                <ExperienceCardHeader currentTitle="Software Engineer" company="UCLA" href="https://www.ucla.edu/" />
+                <ExperienceCardHeader
+                  currentTitle="Software Engineer"
+                  company="UCLA"
+                  href="https://www.ucla.edu/"
+                  dateRange="February 2019 - June 2020"
+                />
               }
               summary={
                 <p>

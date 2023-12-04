@@ -49,12 +49,20 @@ export interface ExperienceCardHeaderProps {
   previousTitles?: string[];
   company: string;
   href: string;
+  dateRange: string;
 }
 
-export function ExperienceCardHeader({currentTitle, previousTitles, company, href}: ExperienceCardHeaderProps) {
+export function ExperienceCardHeader({
+  currentTitle,
+  previousTitles,
+  company,
+  href,
+  dateRange,
+}: ExperienceCardHeaderProps) {
   const words = company.split(' ');
   return (
     <div className="flex flex-col text-lg">
+      <span className="block pb-6 text-sm text-slate-400 lg:hidden">{dateRange}</span>
       <div className="group/experience flex flex-col justify-between gap-4 sm:flex-row">
         <h3 className="order-2 font-bold tracking-tight sm:order-1 group-hover/experience:sm:text-violet-500">
           {currentTitle}
