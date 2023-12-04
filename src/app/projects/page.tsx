@@ -43,7 +43,7 @@ export default function Projects() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl px-4 pt-24 sm:px-12 lg:px-24 lg:pt-48">
+      <div className="mx-auto max-w-screen-xl px-4 pt-16 sm:px-12 sm:pt-24 lg:px-24 lg:pt-48">
         <div className="flex justify-between gap-4">
           <aside className="hidden lg:block lg:w-1/3">
             <ul className="blur-mask sticky top-48 before:absolute before:-bottom-10 before:-left-20 before:-top-10 before:right-0 before:-z-10 before:rounded-full before:backdrop-blur-xl before:content-['']">
