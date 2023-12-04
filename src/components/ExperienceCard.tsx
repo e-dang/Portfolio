@@ -55,10 +55,12 @@ export function ExperienceCardHeader({currentTitle, previousTitles, company, hre
   const words = company.split(' ');
   return (
     <div className="flex flex-col text-lg">
-      <div className="group/experience flex flex-row justify-between">
-        <h3 className="font-bold tracking-tight group-hover/experience:text-violet-500">{currentTitle}</h3>
+      <div className="group/experience flex flex-col justify-between gap-4 sm:flex-row">
+        <h3 className="order-2 font-bold tracking-tight sm:order-1 group-hover/experience:sm:text-violet-500">
+          {currentTitle}
+        </h3>
         <a
-          className="font-bold before:absolute before:inset-0 before:z-10 before:hidden before:content-[''] group-hover/experience:text-violet-500 before:sm:block"
+          className="order-1 font-bold before:absolute before:inset-0 before:z-10 before:hidden before:content-[''] group-hover/experience:text-violet-500 sm:order-2 before:sm:block"
           href={href}
           target="_blank"
           rel="noopener noreferrer"
